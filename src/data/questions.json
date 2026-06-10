@@ -4,7 +4,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: The OSI model splits networking into layers from physical transmission up to application protocols; it helps reason about where controls and failures occur.",
+    "prompt": "Which answer choice best matches this description: ____ splits networking into layers from physical transmission up to application protocols; it helps reason about where controls and failures occur.",
     "options": [
       "OSI Model",
       "SAML",
@@ -20,7 +20,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Layer 7 covers application protocols such as HTTP, APIs and application-level data exchange.",
+    "prompt": "Which answer choice best matches this description: Layer 7 covers application protocols such as HTTP, APIs and application-level data exchange.",
     "options": [
       "Root cause",
       "HSTS",
@@ -36,7 +36,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Layer 4 covers TCP and UDP, including ports, sessions, reliability and flow control.",
+    "prompt": "Which answer choice best matches this description: Layer 4 covers TCP and UDP, including ports, sessions, reliability and flow control.",
     "options": [
       "ACL",
       "Transport layer",
@@ -52,7 +52,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Layer 3 covers IP routing and packet forwarding between networks.",
+    "prompt": "Which answer choice best matches this description: Layer 3 covers IP routing and packet forwarding between networks.",
     "options": [
       "Root cause",
       "Repudiation",
@@ -68,7 +68,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Layer 2 covers MAC addressing, frames, switches, ARP and local network delivery.",
+    "prompt": "Which answer choice best matches this description: Layer 2 covers MAC addressing, frames, switches, ARP and local network delivery.",
     "options": [
       "Data link layer",
       "Network layer",
@@ -84,7 +84,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Layer 1 covers bits over physical media such as fibre, copper or radio.",
+    "prompt": "Which answer choice best matches this description: Layer 1 covers bits over physical media such as fibre, copper or radio.",
     "options": [
       "DOM XSS",
       "Physical layer",
@@ -100,7 +100,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A firewall enforces rules that allow or block inbound or outbound network traffic.",
+    "prompt": "Which answer choice best matches this description: ____ enforces rules that allow or block inbound or outbound network traffic.",
     "options": [
       "Firewall",
       "Baiting",
@@ -116,7 +116,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Network Address Translation maps private internal addresses to public addresses, commonly for IPv4 internet access.",
+    "prompt": "Which answer choice best matches this description: ____ maps private internal addresses to public addresses, commonly for IPv4 internet access.",
     "options": [
       "NAT",
       "SSRF",
@@ -132,7 +132,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: DNS resolves names to records such as A, AAAA, MX, NS, CNAME and PTR; it can also be abused for exfiltration.",
+    "prompt": "Which answer choice best matches this description: ____ resolves names to records such as A, AAAA, MX, NS, CNAME and PTR; it can also be abused for exfiltration.",
     "options": [
       "SQL table",
       "/proc",
@@ -148,7 +148,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: DNS exfiltration hides data in DNS queries, often as encoded subdomains under an attacker-controlled domain.",
+    "prompt": "Which answer choice best matches this description: ____ hides data in DNS queries, often as encoded subdomains under an attacker-controlled domain.",
     "options": [
       "DNS exfiltration",
       "RSA",
@@ -164,7 +164,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A PTR record maps an IP address back to a hostname for reverse DNS lookup.",
+    "prompt": "Which answer choice best matches this description: ____ maps an IP address back to a hostname for reverse DNS lookup.",
     "options": [
       "PTR record",
       "Host signature",
@@ -180,7 +180,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A Start of Authority record defines authoritative metadata for a DNS zone.",
+    "prompt": "Which answer choice best matches this description: ____ defines authoritative metadata for a DNS zone.",
     "options": [
       "SOA record",
       "TPM",
@@ -196,7 +196,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: An MX record tells other mail systems which server handles email for a domain.",
+    "prompt": "Which answer choice best matches this description: ____ tells other mail systems which server handles email for a domain.",
     "options": [
       "Large upload detection",
       "Buffer overflow",
@@ -212,7 +212,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A CNAME record aliases one DNS name to another canonical name.",
+    "prompt": "Which answer choice best matches this description: ____ aliases one DNS name to another name.",
     "options": [
       "CNAME record",
       "Obfuscation",
@@ -228,7 +228,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Address Resolution Protocol maps an IP address to a MAC address on a local network.",
+    "prompt": "Which answer choice best matches this description: ____ maps an IP address to a MAC address on a local network.",
     "options": [
       "ARP",
       "IRC",
@@ -244,7 +244,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: DHCP dynamically leases IP configuration to clients using Discover, Offer, Request and Acknowledge messages.",
+    "prompt": "Which answer choice best matches this description: ____ dynamically leases IP configuration to clients using Discover, Offer, Request and Acknowledge messages.",
     "options": [
       "Anomaly detection",
       "DHCP",
@@ -260,7 +260,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Traceroute discovers hops to a destination by manipulating TTL or hop-limit values and observing replies.",
+    "prompt": "Which answer choice best matches this description: ____ discovers hops to a destination by manipulating TTL or hop-limit values and observing replies.",
     "options": [
       "Conditionals",
       "Attacker cleanup risk",
@@ -276,7 +276,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Nmap is a network scanner used to discover hosts, ports, services and sometimes versions.",
+    "prompt": "Which answer choice best matches this description: ____ is a network scanner used to discover hosts, ports, services and sometimes versions.",
     "options": [
       "Insecure by exception",
       "Virtual machine",
@@ -292,7 +292,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Public Key Infrastructure uses certificates, certificate authorities and trust chains to support authentication and encryption.",
+    "prompt": "Which answer choice best matches this description: ____ uses certificates, certificate authorities and trust chains to support authentication and encryption.",
     "options": [
       "Spectre",
       "POST request",
@@ -308,7 +308,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A VPN hides traffic from the local ISP or network but shifts trust to the VPN provider.",
+    "prompt": "Which answer choice best matches this description: ____ hides traffic from the local ISP or network but shifts trust to the ____ provider.",
     "options": [
       "Execution",
       "Resource development",
@@ -324,7 +324,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Tor routes traffic through relays to hide origin, but Tor usage can be visible on a network.",
+    "prompt": "Which answer choice best matches this description: ____ routes traffic through relays to hide origin, but ____ usage can be visible on a network.",
     "options": [
       "Assume good intent",
       "Physical layer",
@@ -340,7 +340,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A proxy forwards client requests; chaining proxies does not magically provide strong anonymity if endpoints, logs or traffic correlation exist.",
+    "prompt": "Which answer choice best matches this description: ____ forwards client requests; chaining proxies does not magically provide strong anonymity if endpoints, logs or traffic correlation exist.",
     "options": [
       "Snort",
       "Directory traversal",
@@ -356,7 +356,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Border Gateway Protocol routes traffic between autonomous systems and effectively holds the internet together.",
+    "prompt": "Which answer choice best matches this description: ____ routes traffic between autonomous systems and effectively holds the internet together.",
     "options": [
       "BGP",
       "Memory acquisition",
@@ -372,7 +372,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Wireshark is a packet analysis tool used to inspect network traffic.",
+    "prompt": "Which answer choice best matches this description: ____ is a packet analysis tool used to inspect network traffic.",
     "options": [
       "LDAP",
       "Virtual memory",
@@ -388,7 +388,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: tcpdump captures packets from a command line for network troubleshooting and forensics.",
+    "prompt": "Which answer choice best matches this description: ____ captures packets from a command line for network troubleshooting and forensics.",
     "options": [
       "tcpdump",
       "Executive updates",
@@ -404,7 +404,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Burp Suite is a web security testing proxy used to inspect and manipulate HTTP/S traffic.",
+    "prompt": "Which answer choice best matches this description: ____ is a web security testing proxy used to inspect and manipulate HTTP/S traffic.",
     "options": [
       "Burp Suite",
       "Stuxnet",
@@ -420,7 +420,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: HTTP commonly runs on port 80 and is the core application protocol for web traffic.",
+    "prompt": "Which answer choice best matches this description: ____ commonly runs on port 80 and is the core application protocol for web traffic.",
     "options": [
       "Broadcast domain",
       "CORS",
@@ -436,7 +436,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: HTTPS commonly runs on port 443 and protects HTTP with TLS.",
+    "prompt": "Which answer choice best matches this description: ____ commonly runs on port 443 and protects HTTP with TLS.",
     "options": [
       "sqlmap",
       "Symptom vs cause",
@@ -452,7 +452,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A TLS handshake negotiates protocol parameters, authenticates certificates and establishes symmetric session keys.",
+    "prompt": "Which answer choice best matches this description: ____ negotiates protocol parameters, authenticates certificates and establishes symmetric session keys.",
     "options": [
       "Compiler security features",
       "TLS handshake",
@@ -468,7 +468,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: SSH commonly runs on port 22 and uses asymmetric cryptography to establish a secure session key.",
+    "prompt": "Which answer choice best matches this description: ____ commonly runs on port 22 and uses asymmetric cryptography to establish a secure session key.",
     "options": [
       "Mobile forensics",
       "Analyst fatigue",
@@ -484,7 +484,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: SMTP is used for email delivery and commonly uses ports 25, 587 or 465.",
+    "prompt": "Which answer choice best matches this description: ____ is used for email delivery and commonly uses ports 25, 587 or 465.",
     "options": [
       "SMTP",
       "Telnet",
@@ -500,7 +500,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: IMAP is used by clients to access mailbox contents and commonly uses ports 143 or 993.",
+    "prompt": "Which answer choice best matches this description: ____ is used by clients to access mailbox contents and commonly uses ports 143 or 993.",
     "options": [
       "IMAP",
       "SMTP",
@@ -516,7 +516,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: POP3 is an email retrieval protocol commonly using ports 110 or 995.",
+    "prompt": "Which answer choice best matches this description: ____ is an email retrieval protocol commonly using ports 110 or 995.",
     "options": [
       "Dynamic analysis",
       "WinDbg",
@@ -532,7 +532,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Telnet provides remote terminal access but is insecure because it is generally unencrypted.",
+    "prompt": "Which answer choice best matches this description: ____ provides remote terminal access but is insecure because it is generally unencrypted.",
     "options": [
       "Hypervisor",
       "Executive updates",
@@ -548,7 +548,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: IRC can be abused by malware operators as a command-and-control channel for botnets.",
+    "prompt": "Which answer choice best matches this description: ____ can be abused by malware operators as a command-and-control channel for botnets.",
     "options": [
       "IRC",
       "MAC vs DAC",
@@ -564,7 +564,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: FTP uses port 21 for file transfer; SFTP runs over SSH, usually port 22.",
+    "prompt": "Which answer choice best matches this description: ____ uses port 21 for file transfer; ____ runs over SSH, usually port 22.",
     "options": [
       "Denial of service",
       "TEMPEST",
@@ -580,7 +580,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Remote Procedure Call lets clients execute predefined tasks on remote systems and is often used inside organisations.",
+    "prompt": "Which answer choice best matches this description: ____ lets clients execute predefined tasks on remote systems and is often used inside organisations.",
     "options": [
       "IMAP",
       "RPC",
@@ -596,7 +596,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Ports 0-1023 are well-known, 1024-49151 are registered, and 49152-65535 are dynamic or ephemeral.",
+    "prompt": "Which answer choice best matches this description: Ports 0-1023 are well-known, 1024-49151 are registered, and 49152-65535 are dynamic or ephemeral.",
     "options": [
       "Containment timing",
       "MAC vs DAC",
@@ -612,7 +612,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: An HTTP request includes method, path, version, host and headers such as Accept-Language, Encoding and Connection.",
+    "prompt": "Which answer choice best matches this description: An HTTP request includes method, path, version, host and headers such as Accept-Language, Encoding and Connection.",
     "options": [
       "Large upload detection",
       "HTTP request header",
@@ -628,7 +628,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: HTTP status families include 1xx informational, 2xx success, 3xx redirect, 4xx client error and 5xx server error.",
+    "prompt": "Which answer choice best matches this description: HTTP status families include 1xx informational, 2xx success, 3xx redirect, 4xx client error and 5xx server error.",
     "options": [
       "Reflected XSS",
       "Burp Suite",
@@ -644,7 +644,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A UDP header contains source port, destination port, length and checksum.",
+    "prompt": "Which answer choice best matches this description: ____ contains source port, destination port, length and checksum.",
     "options": [
       "Passive DNS",
       "Threat matrix",
@@ -660,7 +660,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A broadcast domain is the set of hosts that receive broadcast frames from each other at Layer 2.",
+    "prompt": "Which answer choice best matches this description: ____ is the set of hosts that receive broadcast frames from each other at Layer 2.",
     "options": [
       "Broadcast domain",
       "Reconnaissance",
@@ -676,7 +676,7 @@
     "type": "multiple-choice",
     "category": "Networking",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: CAM table overflow attacks try to flood a switch MAC table so traffic may be broadcast more widely.",
+    "prompt": "Which answer choice best matches this description: ____ attacks try to flood a switch MAC table so traffic may be broadcast more widely.",
     "options": [
       "Biometrics",
       "Denial of service",
@@ -692,7 +692,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Same-origin policy restricts how documents or scripts from one origin can interact with resources from another origin.",
+    "prompt": "Which answer choice best matches this description: ____ restricts how documents or scripts from one origin can interact with resources from another origin.",
     "options": [
       "Same-origin policy",
       "ACL",
@@ -708,7 +708,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Cross-Origin Resource Sharing lets a server explicitly permit cross-origin browser requests using HTTP headers and preflight checks.",
+    "prompt": "Which answer choice best matches this description: ____ lets a server explicitly permit cross-origin browser requests using HTTP headers and preflight checks.",
     "options": [
       "Burp Suite",
       "SSH",
@@ -724,7 +724,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: HTTP Strict Transport Security tells browsers to use HTTPS for a site and avoid insecure HTTP downgrade.",
+    "prompt": "Which answer choice best matches this description: ____ tells browsers to use HTTPS for a site and avoid insecure HTTP downgrade.",
     "options": [
       "HSTS",
       "Broadcast domain",
@@ -740,7 +740,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Certificate Transparency provides public logs that help detect misissued or unexpected TLS certificates.",
+    "prompt": "Which answer choice best matches this description: ____ provides public logs that help detect misissued or unexpected TLS certificates.",
     "options": [
       "Certificate Transparency",
       "AES",
@@ -756,7 +756,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: HTTP Public Key Pinning attempted to pin public keys in browsers but is deprecated because of operational risk.",
+    "prompt": "Which answer choice best matches this description: ____ attempted to pin public keys in browsers but is deprecated because of operational risk.",
     "options": [
       "HPKP",
       "Broadcast domain",
@@ -772,7 +772,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: The HttpOnly flag prevents JavaScript from reading a cookie, reducing impact from some XSS attacks.",
+    "prompt": "Which answer choice best matches this description: The HttpOnly flag prevents JavaScript from reading a cookie, reducing impact from some XSS attacks.",
     "options": [
       "DigiNotar",
       "ChaCha20",
@@ -788,7 +788,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Cross-Site Request Forgery abuses a victim browser\u2019s authenticated session to make unwanted requests.",
+    "prompt": "Which answer choice best matches this description: ____ abuses a victim browser\u2019s authenticated session to make unwanted requests.",
     "options": [
       "Service port ranges",
       "CSRF",
@@ -804,7 +804,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Cross-Site Scripting injects attacker-controlled script into a trusted web page or application context.",
+    "prompt": "Which answer choice best matches this description: ____ injects attacker-controlled script into a trusted web page or application context.",
     "options": [
       "XSS",
       "Attacker cleanup risk",
@@ -820,7 +820,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Reflected XSS occurs when malicious input is immediately reflected in a response and executed by a browser.",
+    "prompt": "Which answer choice best matches this description: ____ occurs when malicious input is immediately reflected in a response and executed by a browser.",
     "options": [
       "Reflected XSS",
       "Perfect Forward Secrecy",
@@ -836,7 +836,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Stored XSS persists malicious script in application storage and serves it to later users.",
+    "prompt": "Which answer choice best matches this description: ____ persists malicious script in application storage and serves it to later users.",
     "options": [
       "Stored XSS",
       "Conficker",
@@ -852,7 +852,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: DOM-based XSS happens when client-side JavaScript unsafely handles attacker-controlled data.",
+    "prompt": "Which answer choice best matches this description: DOM-based XSS happens when client-side JavaScript unsafely handles attacker-controlled data.",
     "options": [
       "Hyperjacking",
       "DigiNotar",
@@ -868,7 +868,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: SQL injection occurs when untrusted input changes the structure of a database query.",
+    "prompt": "Which answer choice best matches this description: ____ occurs when untrusted input changes the structure of a database query.",
     "options": [
       "Server-side session",
       "SQL injection",
@@ -884,7 +884,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Input validation checks that data is expected and safe before it is processed.",
+    "prompt": "Which answer choice best matches this description: ____ checks that data is expected and safe before it is processed.",
     "options": [
       "Hiberfil",
       "DEP",
@@ -900,7 +900,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: GET is used to request resources and places parameters in the URL, making them visible in browser history and logs.",
+    "prompt": "Which answer choice best matches this description: GET is used to request resources and places parameters in the URL, making them visible in browser history and logs.",
     "options": [
       "OpenID Connect",
       "Denial of service",
@@ -916,7 +916,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: POST sends data in the request body and is commonly used for form submissions or state-changing actions.",
+    "prompt": "Which answer choice best matches this description: POST sends data in the request body and is commonly used for form submissions or state-changing actions.",
     "options": [
       "Malicious redirect",
       "Certificate",
@@ -932,7 +932,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Directory traversal abuses path handling to access files outside the intended directory.",
+    "prompt": "Which answer choice best matches this description: ____ abuses path handling to access files outside the intended directory.",
     "options": [
       "Data link layer",
       "Directory traversal",
@@ -948,7 +948,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: API security requires understanding what data endpoints return, what inputs they accept and how they enforce authz/authn.",
+    "prompt": "Which answer choice best matches this description: ____ requires understanding what data endpoints return, what inputs they accept and how they enforce authz/authn.",
     "options": [
       "MAC spoofing",
       "Root cause",
@@ -964,7 +964,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: User-Agent analysis can help distinguish normal browsers from bots, scripts or malware, but it is spoofable.",
+    "prompt": "Which answer choice best matches this description: ____ can help distinguish normal browsers from bots, scripts or malware, but it is spoofable.",
     "options": [
       "Reverse shell",
       "User-Agent analysis",
@@ -980,7 +980,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Malicious or compromised extensions can mine crypto, steal credentials or inject unwanted ads.",
+    "prompt": "Which answer choice best matches this description: Malicious or compromised extensions can mine crypto, steal credentials or inject unwanted ads.",
     "options": [
       "Stored XSS",
       "Stream cipher",
@@ -996,7 +996,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Local File Inclusion causes a web app to read or execute local files through unsafe path handling.",
+    "prompt": "Which answer choice best matches this description: ____ causes a web app to read or execute local files through unsafe path handling.",
     "options": [
       "Buffer overflow",
       "Kerberos",
@@ -1012,7 +1012,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Remote File Inclusion causes a web app to include attacker-controlled remote content, though it is less common in modern stacks.",
+    "prompt": "Which answer choice best matches this description: ____ causes a web app to include attacker-controlled remote content, though it is less common in modern stacks.",
     "options": [
       "Security control",
       "Remote File Inclusion",
@@ -1028,7 +1028,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Server-Side Request Forgery tricks a server into making requests to attacker-chosen locations, including internal services.",
+    "prompt": "Which answer choice best matches this description: ____ tricks a server into making requests to attacker-chosen locations, including internal services.",
     "options": [
       "Traffic pattern analysis",
       "SSRF",
@@ -1044,7 +1044,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A web vulnerability scanner automates checks for common web weaknesses but still requires human validation.",
+    "prompt": "Which answer choice best matches this description: ____ automates checks for common web weaknesses but still requires human validation.",
     "options": [
       "Web vulnerability scanner",
       "Hashing",
@@ -1060,7 +1060,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: sqlmap is an automated tool for detecting and exploiting SQL injection.",
+    "prompt": "Which answer choice best matches this description: ____ is an automated tool for detecting and exploiting SQL injection.",
     "options": [
       "sqlmap",
       "Golden ticket",
@@ -1076,7 +1076,7 @@
     "type": "multiple-choice",
     "category": "Web Application",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A malicious redirect sends users to attacker-controlled content, often for phishing or malware delivery.",
+    "prompt": "Which answer choice best matches this description: ____ sends users to attacker-controlled content, often for phishing or malware delivery.",
     "options": [
       "Collection",
       "Malicious redirect",
@@ -1092,7 +1092,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A hypervisor runs and isolates virtual machines on shared hardware.",
+    "prompt": "Which answer choice best matches this description: ____ runs and isolates virtual machines on shared hardware.",
     "options": [
       "SMB",
       "Hypervisor",
@@ -1108,7 +1108,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Hyperjacking is the compromise or malicious control of the hypervisor layer.",
+    "prompt": "Which answer choice best matches this description: ____ is the compromise or malicious control of the hypervisor layer.",
     "options": [
       "Hyperjacking",
       "Python generator",
@@ -1124,7 +1124,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Containers package processes with dependencies while sharing the host kernel.",
+    "prompt": "Which answer choice best matches this description: ____ package processes with dependencies while sharing the host kernel.",
     "options": [
       "Containers",
       "SQL table",
@@ -1140,7 +1140,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A virtual machine emulates a full machine with its own guest OS on a hypervisor.",
+    "prompt": "Which answer choice best matches this description: ____ emulates a full machine with its own guest OS on a hypervisor.",
     "options": [
       "OSI Model",
       "Attacker cleanup risk",
@@ -1156,7 +1156,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A container escape breaks isolation and gains access to the host or other containers.",
+    "prompt": "Which answer choice best matches this description: ____ breaks isolation and gains access to the host or other containers.",
     "options": [
       "Container escape",
       "Dynamic analysis",
@@ -1172,7 +1172,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A VM escape breaks out of a guest VM into the host or hypervisor.",
+    "prompt": "Which answer choice best matches this description: ____ breaks out of a guest VM into the host or hypervisor.",
     "options": [
       "Virtual memory",
       "VM escape",
@@ -1188,7 +1188,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Cloud service accounts are non-human identities used by workloads and automation; overprivileged accounts aid lateral movement.",
+    "prompt": "Which answer choice best matches this description: ____ are non-human identities used by workloads and automation; overprivileged accounts aid lateral movement.",
     "options": [
       "Assume good intent",
       "Web vulnerability scanner",
@@ -1204,7 +1204,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Cloud lateral movement abuses identities, tokens, roles or service accounts to access additional cloud resources.",
+    "prompt": "Which answer choice best matches this description: ____ abuses identities, tokens, roles or service accounts to access additional cloud resources.",
     "options": [
       "String operations",
       "BloodHound",
@@ -1220,7 +1220,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: GCPloit is a tool used for assessing or abusing Google Cloud Project misconfigurations.",
+    "prompt": "Which answer choice best matches this description: ____ is a tool used for assessing or abusing Google Cloud Project misconfigurations.",
     "options": [
       "Morris worm",
       "Biometrics",
@@ -1236,7 +1236,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Site isolation separates web origins to reduce cross-site data exposure in the browser.",
+    "prompt": "Which answer choice best matches this description: ____ separates web origins to reduce cross-site data exposure in the browser.",
     "options": [
       "OSSEC",
       "DNS log review",
@@ -1252,7 +1252,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Side-channel attacks infer secrets from indirect signals such as timing, cache behaviour or power usage.",
+    "prompt": "Which answer choice best matches this description: ____ infer secrets from indirect signals such as timing, cache behaviour or power usage.",
     "options": [
       "Pass-the-hash",
       "Side-channel attack",
@@ -1268,7 +1268,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Spectre is a CPU side-channel class that abuses speculative execution to leak data.",
+    "prompt": "Which answer choice best matches this description: ____ is a CPU side-channel class that abuses speculative execution to leak data.",
     "options": [
       "Spectre",
       "LDAP",
@@ -1284,7 +1284,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Meltdown is a CPU side-channel class that can let user-space access protected kernel memory on vulnerable systems.",
+    "prompt": "Which answer choice best matches this description: ____ is a CPU side-channel class that can let user-space access protected kernel memory on vulnerable systems.",
     "options": [
       "Service port ranges",
       "Perfect Forward Secrecy",
@@ -1300,7 +1300,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: BeyondCorp is a zero-trust model that trusts device and user context rather than the network location.",
+    "prompt": "Which answer choice best matches this description: ____ is a zero-trust model that trusts device and user context rather than the network location.",
     "options": [
       "BeyondCorp",
       "Collection",
@@ -1316,7 +1316,7 @@
     "type": "multiple-choice",
     "category": "Cloud and Infrastructure",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Log4Shell showed how logging untrusted strings could trigger remote code execution in vulnerable Log4j versions.",
+    "prompt": "Which answer choice best matches this description: Log4Shell showed how logging untrusted strings could trigger remote code execution in vulnerable Log4j versions.",
     "options": [
       "SQL injection",
       "Log4j vulnerability",
@@ -1332,7 +1332,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Privilege escalation means moving from lower privileges to higher privileges by exploiting weaknesses or misconfigurations.",
+    "prompt": "Which answer choice best matches this description: ____ means moving from lower privileges to higher privileges by exploiting weaknesses or misconfigurations.",
     "options": [
       "Stream cipher",
       "Privilege escalation",
@@ -1348,7 +1348,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A buffer overflow writes beyond intended memory boundaries and may corrupt control flow or data.",
+    "prompt": "Which answer choice best matches this description: ____ writes beyond intended memory boundaries and may corrupt control flow or data.",
     "options": [
       "TTL spoof check",
       "Buffer overflow",
@@ -1364,7 +1364,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Remote code execution lets an attacker run commands or code on a target from another system.",
+    "prompt": "Which answer choice best matches this description: ____ lets an attacker run commands or code on a target from another system.",
     "options": [
       "Cyber kill chain",
       "BeyondCorp",
@@ -1380,7 +1380,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Local SQLite databases can store app messages or metadata useful in digital forensics.",
+    "prompt": "Which answer choice best matches this description: Local SQLite databases can store app messages or metadata useful in digital forensics.",
     "options": [
       "OpenID Connect",
       "Block cipher",
@@ -1396,7 +1396,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: The Windows Registry stores configuration and can reveal persistence, policy and execution artifacts.",
+    "prompt": "Which answer choice best matches this description: ____ stores configuration and can reveal persistence, policy and execution artifacts.",
     "options": [
       "Windows Registry",
       "Host-based IDS",
@@ -1412,7 +1412,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Group Policy centrally manages Windows configuration and security settings in an Active Directory environment.",
+    "prompt": "Which answer choice best matches this description: ____ centrally manages Windows configuration and security settings in an Active Directory environment.",
     "options": [
       "Anti-sandbox evasion",
       "Executive updates",
@@ -1428,7 +1428,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Active Directory manages Windows identities, authentication, authorization and domain resources.",
+    "prompt": "Which answer choice best matches this description: ____ manages Windows identities, authentication, authorization and domain resources.",
     "options": [
       "Side-channel attack",
       "Active Directory",
@@ -1444,7 +1444,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: BloodHound maps Active Directory relationships to reveal attack paths and privilege escalation routes.",
+    "prompt": "Which answer choice best matches this description: ____ maps Active Directory relationships to reveal attack paths and privilege escalation routes.",
     "options": [
       "Priority metrics",
       "Threat matrix",
@@ -1460,7 +1460,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Kerberos is a ticket-based authentication protocol heavily used by Active Directory.",
+    "prompt": "Which answer choice best matches this description: ____ is a ticket-based authentication protocol heavily used by Active Directory.",
     "options": [
       "Kerberos",
       "Information disclosure",
@@ -1476,7 +1476,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Server Message Block supports file sharing and other Windows network operations.",
+    "prompt": "Which answer choice best matches this description: Server Message Block supports file sharing and other Windows network operations.",
     "options": [
       "Zeek",
       "SMB",
@@ -1492,7 +1492,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Samba implements SMB/CIFS interoperability for Unix-like systems.",
+    "prompt": "Which answer choice best matches this description: ____ implements SMB/CIFS interoperability for Unix-like systems.",
     "options": [
       "Port scanner challenge",
       "Attacker cleanup risk",
@@ -1508,7 +1508,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Return-Oriented Programming chains existing code snippets to bypass some exploit mitigations.",
+    "prompt": "Which answer choice best matches this description: ____ chains existing code snippets to bypass some exploit mitigations.",
     "options": [
       "ROP",
       "Passive DNS",
@@ -1524,7 +1524,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: SELinux enforces mandatory access controls on Linux systems.",
+    "prompt": "Which answer choice best matches this description: ____ enforces mandatory access controls on Linux systems.",
     "options": [
       "SELinux",
       "Impact",
@@ -1540,7 +1540,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Kernel space is privileged memory and execution context used by the operating system core.",
+    "prompt": "Which answer choice best matches this description: ____ is privileged memory and execution context used by the operating system core.",
     "options": [
       "Loops",
       "Recursion",
@@ -1556,7 +1556,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: User space is the less privileged environment where normal applications run.",
+    "prompt": "Which answer choice best matches this description: ____ is the less privileged environment where normal applications run.",
     "options": [
       "User space",
       "Samba",
@@ -1572,7 +1572,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Mandatory Access Control is centrally enforced by policy; Discretionary Access Control allows owners to control permissions.",
+    "prompt": "Which answer choice best matches this description: One model is centrally enforced by policy; another model allows owners to control permissions.",
     "options": [
       "RAT",
       "MAC vs DAC",
@@ -1588,7 +1588,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: /proc exposes process and kernel information on Unix-like systems.",
+    "prompt": "Which answer choice best matches this description: ____ exposes process and kernel information on Unix-like systems.",
     "options": [
       "Hash function",
       "/proc",
@@ -1604,7 +1604,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: /tmp can be writable and abused to stage or execute code if controls allow it.",
+    "prompt": "Which answer choice best matches this description: /tmp can be writable and abused to stage or execute code if controls allow it.",
     "options": [
       "/tmp execution risk",
       "Executive updates",
@@ -1620,7 +1620,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: /etc/shadow stores password hashes and is highly sensitive on Unix-like systems.",
+    "prompt": "Which answer choice best matches this description: ____ stores password hashes and is highly sensitive on Unix-like systems.",
     "options": [
       "/etc/shadow",
       "Block cipher",
@@ -1636,7 +1636,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: LDAP is a directory access protocol used for identity and directory services.",
+    "prompt": "Which answer choice best matches this description: ____ is a directory access protocol used for identity and directory services.",
     "options": [
       "SSRF",
       "LDAP",
@@ -1652,7 +1652,7 @@
     "type": "multiple-choice",
     "category": "OS and Systems",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Apple's goto fail bug was an SSL/TLS validation flaw caused by duplicated control-flow code.",
+    "prompt": "Which answer choice best matches this description: Apple's ____ bug was an SSL/TLS validation flaw caused by duplicated control-flow code.",
     "options": [
       "goto fail",
       "DNS log review",
@@ -1668,7 +1668,7 @@
     "type": "multiple-choice",
     "category": "Mitigations",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Patching fixes known vulnerabilities and reduces exposure to publicly known exploit paths.",
+    "prompt": "Which answer choice best matches this description: ____ fixes known vulnerabilities and reduces exposure to publicly known exploit paths.",
     "options": [
       "Patching",
       "Input validation",
@@ -1684,7 +1684,7 @@
     "type": "multiple-choice",
     "category": "Mitigations",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Data Execution Prevention marks memory regions non-executable to make code injection harder.",
+    "prompt": "Which answer choice best matches this description: ____ marks memory regions non-executable to make code injection harder.",
     "options": [
       "HTTP request header",
       "DEP",
@@ -1700,7 +1700,7 @@
     "type": "multiple-choice",
     "category": "Mitigations",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Address Space Layout Randomization randomizes memory addresses to make exploitation less reliable.",
+    "prompt": "Which answer choice best matches this description: ____ randomizes memory addresses to make exploitation less reliable.",
     "options": [
       "ASLR",
       "Dictionary",
@@ -1716,7 +1716,7 @@
     "type": "multiple-choice",
     "category": "Mitigations",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Least privilege gives users and processes only the access they need, limiting blast radius.",
+    "prompt": "Which answer choice best matches this description: ____ gives users and processes only the access they need, limiting blast radius.",
     "options": [
       "Least privilege",
       "FTP/SFTP",
@@ -1732,7 +1732,7 @@
     "type": "multiple-choice",
     "category": "Mitigations",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Code signing verifies software origin and integrity, especially important for kernel or privileged code.",
+    "prompt": "Which answer choice best matches this description: ____ verifies software origin and integrity, especially important for kernel or privileged code.",
     "options": [
       "NTFS",
       "SQL injection",
@@ -1748,7 +1748,7 @@
     "type": "multiple-choice",
     "category": "Mitigations",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Compiler protections such as stack canaries help detect or block memory corruption.",
+    "prompt": "Which answer choice best matches this description: Compiler protections such as stack canaries help detect or block memory corruption.",
     "options": [
       "Side-channel attack",
       "Snort",
@@ -1764,7 +1764,7 @@
     "type": "multiple-choice",
     "category": "Mitigations",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Encrypting software or firmware components can protect confidentiality and integrity of deployed code.",
+    "prompt": "Which answer choice best matches this description: Encrypting software or firmware components can protect confidentiality and integrity of deployed code.",
     "options": [
       "Firmware encryption",
       "DNS log review",
@@ -1780,7 +1780,7 @@
     "type": "multiple-choice",
     "category": "Mitigations",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Mandatory Access Control enforces access policy regardless of object owner preference.",
+    "prompt": "Which answer choice best matches this description: ____ enforces access policy regardless of object owner preference.",
     "options": [
       "CORS",
       "Canary token",
@@ -1796,7 +1796,7 @@
     "type": "multiple-choice",
     "category": "Mitigations",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Access Control Lists define which subjects can access which objects and with what permissions.",
+    "prompt": "Which answer choice best matches this description: ____ define which subjects can access which objects and with what permissions.",
     "options": [
       "ACL",
       "ARP",
@@ -1812,7 +1812,7 @@
     "type": "multiple-choice",
     "category": "Mitigations",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Insecure by exception means allowing risky actions only where justified while improving the default security posture.",
+    "prompt": "Which answer choice best matches this description: ____ means allowing risky actions only where justified while improving the default security posture.",
     "options": [
       "Code signing",
       "Insecure by exception",
@@ -1828,7 +1828,7 @@
     "type": "multiple-choice",
     "category": "Mitigations",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Good security design protects people and reduces unsafe outcomes rather than simply blaming users.",
+    "prompt": "Which answer choice best matches this description: Good security design protects people and reduces unsafe outcomes rather than simply blaming users.",
     "options": [
       "Do not blame the user",
       "Mobile forensics",
@@ -1844,7 +1844,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Encryption transforms data so only parties with the key can recover the plaintext.",
+    "prompt": "Which answer choice best matches this description: ____ transforms data so only parties with the key can recover the plaintext.",
     "options": [
       "Threat matrix",
       "Encryption",
@@ -1860,7 +1860,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Encoding transforms data into another representation and is not intended to provide secrecy.",
+    "prompt": "Which answer choice best matches this description: ____ transforms data into another representation and is not intended to provide secrecy.",
     "options": [
       "DNS",
       "Encoding",
@@ -1876,7 +1876,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Hashing maps data to a fixed-size digest and is generally one-way.",
+    "prompt": "Which answer choice best matches this description: ____ maps data to a fixed-size digest and is generally one-way.",
     "options": [
       "Impact",
       "Hashing",
@@ -1892,7 +1892,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Obfuscation hides intent or structure but does not provide strong cryptographic protection.",
+    "prompt": "Which answer choice best matches this description: ____ hides intent or structure but does not provide strong cryptographic protection.",
     "options": [
       "Elevation of privilege",
       "Symptom vs cause",
@@ -1908,7 +1908,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Digital signing proves integrity and authenticity using a private key and verifiable public key.",
+    "prompt": "Which answer choice best matches this description: ____ proves integrity and authenticity using a private key and verifiable public key.",
     "options": [
       "Digital signing",
       "AES-GCM",
@@ -1924,7 +1924,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: RSA is an asymmetric cryptographic algorithm used historically for encryption and signatures.",
+    "prompt": "Which answer choice best matches this description: ____ is an asymmetric cryptographic algorithm used historically for encryption and signatures.",
     "options": [
       "RSA",
       "Containment timing",
@@ -1940,7 +1940,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: AES is a symmetric block cipher widely used for encryption.",
+    "prompt": "Which answer choice best matches this description: ____ is a symmetric block cipher widely used for encryption.",
     "options": [
       "OpenID Connect",
       "AES",
@@ -1956,7 +1956,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Elliptic Curve Cryptography provides asymmetric cryptography with smaller keys than many older schemes.",
+    "prompt": "Which answer choice best matches this description: ____ provides asymmetric cryptography with smaller keys than many older schemes.",
     "options": [
       "Drive-by download",
       "Impersonation",
@@ -1972,7 +1972,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: ChaCha20 is a symmetric stream cipher often used as an alternative to AES.",
+    "prompt": "Which answer choice best matches this description: ____ is a symmetric stream cipher often used as an alternative to AES.",
     "options": [
       "SAML",
       "SSRF",
@@ -1988,7 +1988,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Symmetric cryptography uses the same shared key for encryption and decryption and is fast.",
+    "prompt": "Which answer choice best matches this description: ____ uses the same shared key for encryption and decryption and is fast.",
     "options": [
       "Symmetric cryptography",
       "ext filesystem",
@@ -2004,7 +2004,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Asymmetric cryptography uses public/private key pairs and is useful for identity, signatures and key exchange.",
+    "prompt": "Which answer choice best matches this description: ____ uses public/private key pairs and is useful for identity, signatures and key exchange.",
     "options": [
       "Evidence volatility",
       "Asymmetric cryptography",
@@ -2020,7 +2020,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Perfect Forward Secrecy limits damage if a long-term key is later compromised by using ephemeral session keys.",
+    "prompt": "Which answer choice best matches this description: ____ limits damage if a long-term key is later compromised by using ephemeral session keys.",
     "options": [
       "Perfect Forward Secrecy",
       "Directory traversal",
@@ -2036,7 +2036,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A block cipher encrypts fixed-size blocks of data and uses modes of operation for larger messages.",
+    "prompt": "Which answer choice best matches this description: ____ encrypts fixed-size blocks of data and uses modes of operation for larger messages.",
     "options": [
       "HTTPS",
       "Block cipher",
@@ -2052,7 +2052,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A stream cipher generates a keystream combined with plaintext to produce ciphertext.",
+    "prompt": "Which answer choice best matches this description: ____ generates a keystream combined with plaintext to produce ciphertext.",
     "options": [
       "Block cipher",
       "Same-origin policy",
@@ -2068,7 +2068,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: AES-GCM provides authenticated encryption, protecting confidentiality and integrity.",
+    "prompt": "Which answer choice best matches this description: ____ provides authenticated encryption, protecting confidentiality and integrity.",
     "options": [
       "Timestomping",
       "Canary token",
@@ -2084,7 +2084,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Hash functions such as SHA family, MD5 or BLAKE produce fingerprints useful for integrity and malware identification.",
+    "prompt": "Which answer choice best matches this description: ____ such as SHA family, MD5 or BLAKE produce fingerprints useful for integrity and malware identification.",
     "options": [
       "String operations",
       "SMTP",
@@ -2100,7 +2100,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A Message Authentication Code validates message integrity and authenticity using a shared secret.",
+    "prompt": "Which answer choice best matches this description: ____ validates message integrity and authenticity using a shared secret.",
     "options": [
       "MAC",
       "Meltdown",
@@ -2116,7 +2116,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: HMAC constructs a keyed MAC using a cryptographic hash function.",
+    "prompt": "Which answer choice best matches this description: ____ constructs a keyed MAC using a cryptographic hash function.",
     "options": [
       "Meltdown",
       "Application layer",
@@ -2132,7 +2132,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Entropy represents unpredictability needed for secure randomness and key generation.",
+    "prompt": "Which answer choice best matches this description: ____ represents unpredictability needed for secure randomness and key generation.",
     "options": [
       "MFA comparison",
       "Traceroute",
@@ -2148,7 +2148,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A pseudo-random number generator deterministically expands seed material into random-looking output.",
+    "prompt": "Which answer choice best matches this description: ____ deterministically expands seed material into random-looking output.",
     "options": [
       "RPC",
       "Host signature",
@@ -2164,7 +2164,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A certificate binds a public key to identity information and is signed by a certificate authority.",
+    "prompt": "Which answer choice best matches this description: ____ binds a public key to identity information and is signed by a ____ authority.",
     "options": [
       "Certificate",
       "Elevation of privilege",
@@ -2180,7 +2180,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: DigiNotar is a classic CA compromise case showing the risk of broken certificate authority trust.",
+    "prompt": "Which answer choice best matches this description: ____ is a classic CA compromise case showing the risk of broken certificate authority trust.",
     "options": [
       "RPC",
       "Container escape",
@@ -2196,7 +2196,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A Trusted Platform Module provides hardware-backed storage and security functions for keys and platform trust.",
+    "prompt": "Which answer choice best matches this description: ____ provides hardware-backed storage and security functions for keys and platform trust.",
     "options": [
       "Password rotation",
       "String operations",
@@ -2212,7 +2212,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: An OAuth bearer token grants access to whoever possesses it, so theft is equivalent to credential theft.",
+    "prompt": "Which answer choice best matches this description: ____ grants access to whoever possesses it, so theft is equivalent to credential theft.",
     "options": [
       "Server-side session",
       "Morris worm",
@@ -2228,7 +2228,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: An auth cookie is a client-side token used by browsers to maintain authenticated sessions.",
+    "prompt": "Which answer choice best matches this description: ____ is a client-side token used by browsers to maintain authenticated sessions.",
     "options": [
       "Python slicing",
       "Tor",
@@ -2244,7 +2244,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A server-side session stores state on the server and references it with a client token.",
+    "prompt": "Which answer choice best matches this description: ____ stores state on the server and references it with a client token.",
     "options": [
       "Server-side session",
       "Certificate Transparency",
@@ -2260,7 +2260,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: SAML is a federated identity protocol commonly used for enterprise SSO.",
+    "prompt": "Which answer choice best matches this description: ____ is a federated identity protocol commonly used for enterprise SSO.",
     "options": [
       "SQL table",
       "Tor",
@@ -2276,7 +2276,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: OpenID Connect adds identity on top of OAuth 2.0 flows.",
+    "prompt": "Which answer choice best matches this description: ____ adds identity on top of OAuth 2.0 flows.",
     "options": [
       "Golden ticket",
       "SMB",
@@ -2292,7 +2292,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A Kerberos golden ticket abuses krbtgt key material to forge domain-wide Kerberos tickets.",
+    "prompt": "Which answer choice best matches this description: A Kerberos ____ abuses krbtgt key material to forge domain-wide Kerberos tickets.",
     "options": [
       "Certificate Transparency",
       "Physical attack",
@@ -2308,7 +2308,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A Kerberos silver ticket forges a service ticket for a specific service.",
+    "prompt": "Which answer choice best matches this description: A Kerberos ____ forges a service ticket for a specific service.",
     "options": [
       "DOM XSS",
       "Log4j vulnerability",
@@ -2324,7 +2324,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Mimikatz is a tool known for extracting Windows credentials and abusing authentication material.",
+    "prompt": "Which answer choice best matches this description: ____ is a tool known for extracting Windows credentials and abusing authentication material.",
     "options": [
       "Symptom vs cause",
       "Mimikatz",
@@ -2340,7 +2340,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Pass-the-hash authenticates using a password hash without knowing the plaintext password.",
+    "prompt": "Which answer choice best matches this description: ____ authenticates using a password hash without knowing the plaintext password.",
     "options": [
       "Mutex",
       "Pass-the-hash",
@@ -2356,7 +2356,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Biometrics are hard to rotate after compromise, unlike passwords or tokens.",
+    "prompt": "Which answer choice best matches this description: ____ are hard to rotate after compromise, unlike passwords or tokens.",
     "options": [
       "STRIDE",
       "Large upload detection",
@@ -2372,7 +2372,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Frequent forced password rotation can lead to weaker user behaviour if not risk-based.",
+    "prompt": "Which answer choice best matches this description: Frequent forced ____ can lead to weaker user behaviour if not risk-based.",
     "options": [
       "HTTP",
       "EnCase",
@@ -2388,7 +2388,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: U2F and FIDO hardware authenticators help resist phishing by binding auth to the legitimate origin.",
+    "prompt": "Which answer choice best matches this description: ____ hardware authenticators help resist phishing by binding auth to the legitimate origin.",
     "options": [
       "YARA",
       "Passive DNS",
@@ -2404,7 +2404,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: MFA methods vary in phishing resistance, usability, recoverability and operational risk.",
+    "prompt": "Which answer choice best matches this description: MFA methods vary in phishing resistance, usability, recoverability and operational risk.",
     "options": [
       "MFA comparison",
       "Sunburst",
@@ -2420,7 +2420,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Service accounts are automation identities and should be tightly scoped and monitored.",
+    "prompt": "Which answer choice best matches this description: ____ are automation identities and should be tightly scoped and monitored.",
     "options": [
       "Encryption",
       "Directory traversal",
@@ -2436,7 +2436,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Impersonation lets one identity act as another, often through delegated roles, exported keys or tokens.",
+    "prompt": "Which answer choice best matches this description: ____ lets one identity act as another, often through delegated roles, exported keys or tokens.",
     "options": [
       "EnCase",
       "Impersonation",
@@ -2452,7 +2452,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A JSON Web Token carries signed claims and is often used in identity and API authorization flows.",
+    "prompt": "Which answer choice best matches this description: ____ carries signed claims and is often used in identity and API authorization flows.",
     "options": [
       "Network signature",
       "Execution logs",
@@ -2468,7 +2468,7 @@
     "type": "multiple-choice",
     "category": "Crypto and Identity",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Federated identity lets one trusted provider authenticate users for another service.",
+    "prompt": "Which answer choice best matches this description: ____ lets one trusted provider authenticate users for another service.",
     "options": [
       "Federated identity",
       "Hyperjacking",
@@ -2484,7 +2484,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Conficker was a major worm that spread through Windows vulnerabilities and weak credentials.",
+    "prompt": "Which answer choice best matches this description: ____ was a major worm that spread through Windows vulnerabilities and weak credentials.",
     "options": [
       "Conficker",
       "DigiNotar",
@@ -2500,7 +2500,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: The Morris worm was an early internet worm that unintentionally caused widespread disruption.",
+    "prompt": "Which answer choice best matches this description: ____ was an early internet worm that unintentionally caused widespread disruption.",
     "options": [
       "Linear search",
       "NTFS",
@@ -2516,7 +2516,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Zeus is malware known for credential theft and banking fraud.",
+    "prompt": "Which answer choice best matches this description: ____ is malware known for credential theft and banking fraud.",
     "options": [
       "Baiting",
       "Timeline building",
@@ -2532,7 +2532,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Stuxnet targeted industrial control systems and is a landmark example of sophisticated cyber-physical malware.",
+    "prompt": "Which answer choice best matches this description: ____ targeted industrial control systems and is a landmark example of sophisticated cyber-physical malware.",
     "options": [
       "Pseudocode",
       "ECC",
@@ -2548,7 +2548,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: WannaCry was ransomware that spread rapidly using the EternalBlue SMB vulnerability.",
+    "prompt": "Which answer choice best matches this description: ____ was ransomware that spread rapidly using the EternalBlue SMB vulnerability.",
     "options": [
       "Splunk",
       "BGP",
@@ -2564,7 +2564,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Sunburst was the SolarWinds supply-chain backdoor used for stealthy access.",
+    "prompt": "Which answer choice best matches this description: ____ was the SolarWinds supply-chain backdoor used for stealthy access.",
     "options": [
       "Sunburst",
       "PKI",
@@ -2580,7 +2580,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Domain flux rotates many potential domains to make malware C2 harder to block.",
+    "prompt": "Which answer choice best matches this description: ____ rotates many potential domains to make malware C2 harder to block.",
     "options": [
       "Privacy incident",
       "Domain flux",
@@ -2596,7 +2596,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Fast flux rapidly changes DNS records to hide malicious infrastructure behind many IPs.",
+    "prompt": "Which answer choice best matches this description: ____ rapidly changes DNS records to hide malicious infrastructure behind many IPs.",
     "options": [
       "Trust boundary",
       "HTTP request header",
@@ -2612,7 +2612,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A covert C2 channel hides command-and-control traffic inside less suspicious protocols or patterns.",
+    "prompt": "Which answer choice best matches this description: ____ hides command-and-control traffic inside less suspicious protocols or patterns.",
     "options": [
       "Lateral movement",
       "Static analysis",
@@ -2628,7 +2628,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Anti-sandbox evasion detects analysis environments and changes behaviour to avoid detection.",
+    "prompt": "Which answer choice best matches this description: ____ detects analysis environments and changes behaviour to avoid detection.",
     "options": [
       "Priority metrics",
       "Anti-sandbox evasion",
@@ -2644,7 +2644,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Process hollowing starts a legitimate process then replaces its memory with malicious code.",
+    "prompt": "Which answer choice best matches this description: ____ starts a legitimate process then replaces its memory with malicious code.",
     "options": [
       "Certificate Transparency",
       "Process hollowing",
@@ -2660,7 +2660,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Malware may use mutexes to ensure only one instance runs or to mark infection state.",
+    "prompt": "Which answer choice best matches this description: Malware may use ____ objects to ensure only one instance runs or to mark infection state.",
     "options": [
       "JWT",
       "Remote code execution",
@@ -2676,7 +2676,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Polymorphic malware changes its code or appearance to evade signature-based detection.",
+    "prompt": "Which answer choice best matches this description: ____ changes its code or appearance to evade signature-based detection.",
     "options": [
       "Polymorphic malware",
       "TLS handshake",
@@ -2692,7 +2692,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A Remote Access Trojan gives an attacker interactive control of a compromised system.",
+    "prompt": "Which answer choice best matches this description: ____ gives an attacker interactive control of a compromised system.",
     "options": [
       "RAT",
       "Security control",
@@ -2708,7 +2708,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Static analysis examines files without running them, using strings, headers, imports and disassembly.",
+    "prompt": "Which answer choice best matches this description: ____ examines files without running them, using strings, headers, imports and disassembly.",
     "options": [
       "Resource development",
       "UDP header",
@@ -2724,7 +2724,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Dynamic analysis executes malware in a controlled environment to observe behaviour.",
+    "prompt": "Which answer choice best matches this description: ____ executes malware in a controlled environment to observe behaviour.",
     "options": [
       "Hash function",
       "Obfuscation",
@@ -2740,7 +2740,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Ghidra is a reverse-engineering suite used for disassembly and decompilation.",
+    "prompt": "Which answer choice best matches this description: ____ is a reverse-engineering suite used for disassembly and decompilation.",
     "options": [
       "Root cause",
       "Ghidra",
@@ -2756,7 +2756,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: IDA Pro is a commercial disassembler and reverse-engineering tool.",
+    "prompt": "Which answer choice best matches this description: ____ is a commercial disassembler and reverse-engineering tool.",
     "options": [
       "Baiting",
       "Linear search",
@@ -2772,7 +2772,7 @@
     "type": "multiple-choice",
     "category": "Malware and Reversing",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: VirusTotal aggregates file and URL reputation and antivirus detections.",
+    "prompt": "Which answer choice best matches this description: ____ aggregates file and URL reputation and antivirus detections.",
     "options": [
       "/etc/shadow",
       "Network signature",
@@ -2788,7 +2788,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Social attacks manipulate people through phishing, pretexting, bias or persuasion.",
+    "prompt": "Which answer choice best matches this description: ____ manipulate people through phishing, pretexting, bias or persuasion.",
     "options": [
       "AES",
       "Resource development",
@@ -2804,7 +2804,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Spear phishing targets specific people or roles with tailored lures.",
+    "prompt": "Which answer choice best matches this description: ____ targets specific people or roles with tailored lures.",
     "options": [
       "SOA record",
       "Spear phishing",
@@ -2820,7 +2820,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A watering hole attack compromises a site likely to be visited by the target group.",
+    "prompt": "Which answer choice best matches this description: ____ attack compromises a site likely to be visited by the target group.",
     "options": [
       "PDF metadata scraper",
       "Watering hole",
@@ -2836,7 +2836,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Baiting leaves tempting media or devices, such as USB drives, hoping victims use them.",
+    "prompt": "Which answer choice best matches this description: ____ leaves tempting media or devices, such as USB drives, hoping victims use them.",
     "options": [
       "Baiting",
       "ACL",
@@ -2852,7 +2852,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Tailgating follows an authorized person into a restricted area without authorization.",
+    "prompt": "Which answer choice best matches this description: ____ follows an authorized person into a restricted area without authorization.",
     "options": [
       "Tailgating",
       "Stuxnet",
@@ -2868,7 +2868,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Physical attacks target devices, premises or hardware access, such as disk theft or keyloggers.",
+    "prompt": "Which answer choice best matches this description: ____ target devices, premises or hardware access, such as disk theft or keyloggers.",
     "options": [
       "Malicious redirect",
       "Certificate Transparency",
@@ -2884,7 +2884,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Disk encryption protects data at rest if devices are lost or physically accessed.",
+    "prompt": "Which answer choice best matches this description: ____ protects data at rest if devices are lost or physically accessed.",
     "options": [
       "Active Directory",
       "LDAP",
@@ -2900,7 +2900,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A keylogger captures keystrokes to steal credentials or sensitive information.",
+    "prompt": "Which answer choice best matches this description: ____ captures keystrokes to steal credentials or sensitive information.",
     "options": [
       "Buffer overflow",
       "MAC",
@@ -2916,7 +2916,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: TEMPEST-style attacks infer information from unintended electromagnetic, acoustic or vibration emissions.",
+    "prompt": "Which answer choice best matches this description: ____-style attacks infer information from unintended electromagnetic, acoustic or vibration emissions.",
     "options": [
       "HTTP request header",
       "TEMPEST",
@@ -2932,7 +2932,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Network attacks target exposed services, insecure protocols, interception or exploitable CVEs.",
+    "prompt": "Which answer choice best matches this description: ____ target exposed services, insecure protocols, interception or exploitable CVEs.",
     "options": [
       "Certificate Transparency",
       "Email spoofing",
@@ -2948,7 +2948,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Exploit kits automate client-side exploitation, often through drive-by download chains.",
+    "prompt": "Which answer choice best matches this description: ____ automate client-side exploitation, often through drive-by download chains.",
     "options": [
       "Containment timing",
       "Remote File Inclusion",
@@ -2964,7 +2964,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A drive-by download compromises a victim through browsing to a malicious or compromised site.",
+    "prompt": "Which answer choice best matches this description: ____ compromises a victim through browsing to a malicious or compromised site.",
     "options": [
       "Resource development",
       "Drive-by download",
@@ -2980,7 +2980,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A bind shell opens a listening port on the victim for the attacker to connect to.",
+    "prompt": "Which answer choice best matches this description: ____ opens a listening port on the victim for the attacker to connect to.",
     "options": [
       "MX record",
       "Execution logs",
@@ -2996,7 +2996,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A reverse shell makes the victim connect outbound to the attacker\u2019s listener.",
+    "prompt": "Which answer choice best matches this description: ____ makes the victim connect outbound to the attacker\u2019s listener.",
     "options": [
       "TTL spoof check",
       "Federated identity",
@@ -3012,7 +3012,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Email spoofing forges sender identity to deceive recipients or bypass weak controls.",
+    "prompt": "Which answer choice best matches this description: ____ forges sender identity to deceive recipients or bypass weak controls.",
     "options": [
       "VPN",
       "Conficker",
@@ -3028,7 +3028,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: IP spoofing forges source IP addresses, though replies usually go elsewhere unless path control exists.",
+    "prompt": "Which answer choice best matches this description: ____ forges source IP addresses, though replies usually go elsewhere unless path control exists.",
     "options": [
       "RSA",
       "Hyperjacking",
@@ -3044,7 +3044,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: MAC spoofing changes a device\u2019s link-layer address to impersonate another local device.",
+    "prompt": "Which answer choice best matches this description: ____ changes a device\u2019s link-layer address to impersonate another local device.",
     "options": [
       "Linear search",
       "Executive updates",
@@ -3060,7 +3060,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: ARP spoofing poisons local ARP mappings to intercept or redirect traffic.",
+    "prompt": "Which answer choice best matches this description: ____ poisons local ARP mappings to intercept or redirect traffic.",
     "options": [
       "ARP spoofing",
       "Threat matrix",
@@ -3076,7 +3076,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Metasploit is an exploitation framework used to test and demonstrate vulnerabilities.",
+    "prompt": "Which answer choice best matches this description: ____ is an exploitation framework used to test and demonstrate vulnerabilities.",
     "options": [
       "Metasploit",
       "SIEM",
@@ -3092,7 +3092,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: ExploitDB is a public archive of exploit code and proof-of-concept vulnerabilities.",
+    "prompt": "Which answer choice best matches this description: ____ is a public archive of exploit code and proof-of-concept vulnerabilities.",
     "options": [
       "IMAP",
       "Playbook",
@@ -3108,7 +3108,7 @@
     "type": "multiple-choice",
     "category": "Exploits",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Shodan indexes internet-connected devices and services.",
+    "prompt": "Which answer choice best matches this description: ____ indexes internet-connected devices and services.",
     "options": [
       "Shodan",
       "Local File Inclusion",
@@ -3124,7 +3124,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Reconnaissance gathers information through OSINT, search, Shodan, scanning and other discovery.",
+    "prompt": "Which answer choice best matches this description: ____ gathers information through OSINT, search, Shodan, scanning and other discovery.",
     "options": [
       "Reconnaissance",
       "Burp Suite",
@@ -3140,7 +3140,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Resource development prepares infrastructure, malware, accounts or capabilities for an operation.",
+    "prompt": "Which answer choice best matches this description: ____ prepares infrastructure, malware, accounts or capabilities for an operation.",
     "options": [
       "ASLR",
       "Resource development",
@@ -3156,7 +3156,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Initial access is the first foothold, often via phishing, supply chain, exposed apps or hardware placement.",
+    "prompt": "Which answer choice best matches this description: ____ is the first foothold, often via phishing, supply chain, exposed apps or hardware placement.",
     "options": [
       "Python generator",
       "Initial access",
@@ -3172,7 +3172,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Execution runs attacker code through shells, interpreters, scheduled tasks or WMI.",
+    "prompt": "Which answer choice best matches this description: ____ runs attacker code through shells, interpreters, scheduled tasks or WMI.",
     "options": [
       "Stream cipher",
       "Execution",
@@ -3188,7 +3188,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Persistence maintains access through accounts, startup items, scheduled tasks, webshells or DLL side-loading.",
+    "prompt": "Which answer choice best matches this description: ____ maintains access through accounts, startup items, scheduled tasks, webshells or DLL side-loading.",
     "options": [
       "Malicious redirect",
       "Persistence",
@@ -3204,7 +3204,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Privilege escalation obtains higher permissions through exploits, token theft, sudo abuse or IAM changes.",
+    "prompt": "Which answer choice best matches this description: ____ obtains higher permissions through exploits, token theft, sudo abuse or IAM changes.",
     "options": [
       "DigiNotar",
       "BloodHound",
@@ -3220,7 +3220,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Defense evasion avoids or disables detection through log tampering, tool disabling, injection or bootkits.",
+    "prompt": "Which answer choice best matches this description: ____ avoids or disables detection through log tampering, tool disabling, injection or bootkits.",
     "options": [
       "Privacy incident",
       "POP3",
@@ -3236,7 +3236,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Credential access steals passwords, hashes, tokens, tickets or secrets from files and systems.",
+    "prompt": "Which answer choice best matches this description: ____ steals passwords, hashes, tokens, tickets or secrets from files and systems.",
     "options": [
       "Recursion",
       "GRR",
@@ -3252,7 +3252,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Discovery identifies systems, accounts, software, policies and environment details after access.",
+    "prompt": "Which answer choice best matches this description: ____ identifies systems, accounts, software, policies and environment details after access.",
     "options": [
       "Anti-forensics",
       "BGP",
@@ -3268,7 +3268,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Lateral movement expands access using SSH, RDP, SMB, tickets, hashes, tokens or internal phishing.",
+    "prompt": "Which answer choice best matches this description: ____ expands access using SSH, RDP, SMB, tickets, hashes, tokens or internal phishing.",
     "options": [
       "Evidence volatility",
       "IMAP",
@@ -3284,7 +3284,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Collection gathers target data such as databases, files, screenshots, audio, video or internal docs.",
+    "prompt": "Which answer choice best matches this description: ____ gathers target data such as databases, files, screenshots, audio, video or internal docs.",
     "options": [
       "Service port ranges",
       "Collection",
@@ -3300,7 +3300,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Exfiltration removes data through USB, DNS, C2, cloud storage, code repos or scheduled transfers.",
+    "prompt": "Which answer choice best matches this description: ____ removes data through USB, DNS, C2, cloud storage, code repos or scheduled transfers.",
     "options": [
       "Telnet",
       "Exfiltration",
@@ -3316,7 +3316,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Command and control lets attackers send instructions and receive results through web services, encrypted channels or removable media.",
+    "prompt": "Which answer choice best matches this description: ____ lets attackers send instructions and receive results through web services, encrypted channels or removable media.",
     "options": [
       "Hiberfil",
       "Password bruteforcer challenge",
@@ -3332,7 +3332,7 @@
     "type": "multiple-choice",
     "category": "Attack Lifecycle",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Impact disrupts or damages systems through deletion, ransomware, defacement, DoS or shutdown.",
+    "prompt": "Which answer choice best matches this description: ____ disrupts or damages systems through deletion, ransomware, defacement, DoS or shutdown.",
     "options": [
       "Signature-based detection",
       "Firmware encryption",
@@ -3348,7 +3348,7 @@
     "type": "multiple-choice",
     "category": "Threat Modeling",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A threat matrix organizes possible threats, actors, assets and controls.",
+    "prompt": "Which answer choice best matches this description: ____ organizes possible threats, actors, assets and controls.",
     "options": [
       "Host signature",
       "VirusTotal",
@@ -3364,7 +3364,7 @@
     "type": "multiple-choice",
     "category": "Threat Modeling",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A trust boundary marks where data or control crosses between different trust levels.",
+    "prompt": "Which answer choice best matches this description: ____ marks where data or control crosses between different trust levels.",
     "options": [
       "Trust boundary",
       "MITRE ATT&CK",
@@ -3380,7 +3380,7 @@
     "type": "multiple-choice",
     "category": "Threat Modeling",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A security control prevents, detects or responds to risk.",
+    "prompt": "Which answer choice best matches this description: ____ prevents, detects or responds to risk.",
     "options": [
       "Same-origin policy",
       "Security control",
@@ -3396,7 +3396,7 @@
     "type": "multiple-choice",
     "category": "Threat Modeling",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: STRIDE models Spoofing, Tampering, Repudiation, Information disclosure, Denial of service and Elevation of privilege.",
+    "prompt": "Which answer choice best matches this description: ____ models Spoofing, Tampering, Repudiation, Information disclosure, Denial of service and Elevation of privilege.",
     "options": [
       "STRIDE",
       "sqlmap",
@@ -3412,7 +3412,7 @@
     "type": "multiple-choice",
     "category": "Threat Modeling",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Spoofing is pretending to be another identity, system or source.",
+    "prompt": "Which answer choice best matches this description: ____ is pretending to be another identity, system or source.",
     "options": [
       "Trust boundary",
       "Local File Inclusion",
@@ -3428,7 +3428,7 @@
     "type": "multiple-choice",
     "category": "Threat Modeling",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Tampering is unauthorized modification of data, code, configuration or messages.",
+    "prompt": "Which answer choice best matches this description: ____ is unauthorized modification of data, code, configuration or messages.",
     "options": [
       "Log parser challenge",
       "Tampering",
@@ -3444,7 +3444,7 @@
     "type": "multiple-choice",
     "category": "Threat Modeling",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Repudiation is the ability to deny an action because accountability or logging is insufficient.",
+    "prompt": "Which answer choice best matches this description: ____ is the ability to deny an action because accountability or logging is insufficient.",
     "options": [
       "Repudiation",
       "Do not blame the user",
@@ -3460,7 +3460,7 @@
     "type": "multiple-choice",
     "category": "Threat Modeling",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Information disclosure exposes data to unauthorized parties.",
+    "prompt": "Which answer choice best matches this description: ____ exposes data to unauthorized parties.",
     "options": [
       "Hash table",
       "Directory traversal",
@@ -3476,7 +3476,7 @@
     "type": "multiple-choice",
     "category": "Threat Modeling",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Denial of service reduces or removes availability of a system or service.",
+    "prompt": "Which answer choice best matches this description: ____ reduces or removes availability of a system or service.",
     "options": [
       "YARA signature challenge",
       "ARP",
@@ -3492,7 +3492,7 @@
     "type": "multiple-choice",
     "category": "Threat Modeling",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Elevation of privilege lets an attacker gain capabilities they should not have.",
+    "prompt": "Which answer choice best matches this description: ____ lets an attacker gain capabilities they should not have.",
     "options": [
       "Network layer",
       "Elevation of privilege",
@@ -3508,7 +3508,7 @@
     "type": "multiple-choice",
     "category": "Threat Modeling",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: MITRE ATT&CK maps adversary tactics and techniques for describing and detecting attack behaviour.",
+    "prompt": "Which answer choice best matches this description: ____ maps adversary tactics and techniques for describing and detecting attack behaviour.",
     "options": [
       "Container escape",
       "MITRE ATT&CK",
@@ -3524,7 +3524,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: An Intrusion Detection System detects suspicious activity using signatures, behaviour or both.",
+    "prompt": "Which answer choice best matches this description: ____ detects suspicious activity using signatures, behaviour or both.",
     "options": [
       "IDS",
       "Tampering",
@@ -3540,7 +3540,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Signature-based detection looks for known patterns such as malware strings, hashes or rule matches.",
+    "prompt": "Which answer choice best matches this description: ____ looks for known patterns such as malware strings, hashes or rule matches.",
     "options": [
       "Mutex",
       "Array",
@@ -3556,7 +3556,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Behaviour-based detection looks for abnormal or malicious activity patterns rather than fixed indicators.",
+    "prompt": "Which answer choice best matches this description: ____ looks for abnormal or malicious activity patterns rather than fixed indicators.",
     "options": [
       "Meltdown",
       "Behaviour-based detection",
@@ -3572,7 +3572,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Snort is a signature-based network intrusion detection and prevention engine.",
+    "prompt": "Which answer choice best matches this description: ____ is a signature-based network intrusion detection and prevention engine.",
     "options": [
       "OSSEC",
       "Passive DNS",
@@ -3588,7 +3588,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Suricata is a high-performance IDS/IPS and network security monitoring engine.",
+    "prompt": "Which answer choice best matches this description: ____ is a high-performance IDS/IPS and network security monitoring engine.",
     "options": [
       "Watering hole",
       "Directory traversal",
@@ -3604,7 +3604,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: YARA rules identify malware or files based on strings, byte patterns and conditions.",
+    "prompt": "Which answer choice best matches this description: ____ rules identify malware or files based on strings, byte patterns and conditions.",
     "options": [
       "Disk imaging",
       "YARA",
@@ -3620,7 +3620,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Host-based IDS monitors activity on endpoints, such as file, registry or process changes.",
+    "prompt": "Which answer choice best matches this description: ____ monitors activity on endpoints, such as file, registry or process changes.",
     "options": [
       "TLS handshake",
       "Python slicing",
@@ -3636,7 +3636,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: OSSEC is an open-source host-based intrusion detection system.",
+    "prompt": "Which answer choice best matches this description: ____ is an open-source host-based intrusion detection system.",
     "options": [
       "OSSEC",
       "Code signing",
@@ -3652,7 +3652,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A SIEM collects, correlates and alerts on security-relevant logs and events.",
+    "prompt": "Which answer choice best matches this description: ____ collects, correlates and alerts on security-relevant logs and events.",
     "options": [
       "IDS",
       "SIEM",
@@ -3668,7 +3668,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: An Indicator of Compromise is a concrete artifact such as an IP, hash, domain or filename.",
+    "prompt": "Which answer choice best matches this description: ____ is a concrete artifact such as an IP, hash, domain or filename.",
     "options": [
       "IOC",
       "Hashing",
@@ -3684,7 +3684,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: A honeypot is a decoy system or service used to detect or study attacker activity.",
+    "prompt": "Which answer choice best matches this description: ____ is a decoy system or service used to detect or study attacker activity.",
     "options": [
       "DNS exfiltration",
       "Snort",
@@ -3700,7 +3700,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: A canary token is a tripwire object that alerts when touched or used.",
+    "prompt": "Which answer choice best matches this description: ____ is a tripwire object that alerts when touched or used.",
     "options": [
       "Stack",
       "MITRE ATT&CK",
@@ -3716,7 +3716,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Analyst fatigue happens when too many low-quality alerts overwhelm human reviewers.",
+    "prompt": "Which answer choice best matches this description: ____ happens when too many low-quality alerts overwhelm human reviewers.",
     "options": [
       "Command and control",
       "Analyst fatigue",
@@ -3732,7 +3732,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Host signatures can include file changes, registry changes or malware strings on endpoints.",
+    "prompt": "Which answer choice best matches this description: ____ can include file changes, registry changes or malware strings on endpoints.",
     "options": [
       "Drive-by download",
       "HSTS",
@@ -3748,7 +3748,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Network signatures detect patterns such as C2 domains, protocol anomalies or suspicious traffic.",
+    "prompt": "Which answer choice best matches this description: ____ detect patterns such as C2 domains, protocol anomalies or suspicious traffic.",
     "options": [
       "Network signature",
       "Collection",
@@ -3764,7 +3764,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Anomaly detection models normal behaviour and flags deviations, such as unusual login times or URLs.",
+    "prompt": "Which answer choice best matches this description: ____ models normal behaviour and flags deviations, such as unusual login times or URLs.",
     "options": [
       "Anomaly detection",
       "Dynamic analysis",
@@ -3780,7 +3780,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Port scan detection may look for many TCP SYN packets without normal follow-up or broad port coverage.",
+    "prompt": "Which answer choice best matches this description: ____ may look for many TCP SYN packets without normal follow-up or broad port coverage.",
     "options": [
       "Port scan detection",
       "Legal escalation",
@@ -3796,7 +3796,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Large outbound uploads can indicate data exfiltration, especially when unusual for the host or user.",
+    "prompt": "Which answer choice best matches this description: Large outbound uploads can indicate data exfiltration, especially when unusual for the host or user.",
     "options": [
       "Stored XSS",
       "Large upload detection",
@@ -3812,7 +3812,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Comparing packet TTL patterns can sometimes help identify spoofed or inconsistent traffic.",
+    "prompt": "Which answer choice best matches this description: Comparing packet TTL patterns can sometimes help identify spoofed or inconsistent traffic.",
     "options": [
       "Port scanner challenge",
       "TTL spoof check",
@@ -3828,7 +3828,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: DNS logs can reveal suspicious domains, tunnelling, beaconing or DNS exfiltration.",
+    "prompt": "Which answer choice best matches this description: DNS logs can reveal suspicious domains, tunnelling, beaconing or DNS exfiltration.",
     "options": [
       "Large upload detection",
       "Loops",
@@ -3844,7 +3844,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Unusual HTTP headers can reveal bots, malware, scanners or broken clients.",
+    "prompt": "Which answer choice best matches this description: Unusual HTTP headers can reveal bots, malware, scanners or broken clients.",
     "options": [
       "HTTP header review",
       "YARA",
@@ -3860,7 +3860,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Traffic pattern analysis looks at timing, volume, destinations and protocols to identify suspicious activity.",
+    "prompt": "Which answer choice best matches this description: ____ looks at timing, volume, destinations and protocols to identify suspicious activity.",
     "options": [
       "Regular expression",
       "Traffic pattern analysis",
@@ -3876,7 +3876,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Execution logs show process or command activity useful for detecting malware and hands-on-keyboard activity.",
+    "prompt": "Which answer choice best matches this description: ____ show process or command activity useful for detecting malware and hands-on-keyboard activity.",
     "options": [
       "Canary token",
       "Port scan detection",
@@ -3892,7 +3892,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Splunk is a SIEM/log analytics platform commonly used for security monitoring.",
+    "prompt": "Which answer choice best matches this description: ____ is a SIEM/log analytics platform commonly used for security monitoring.",
     "options": [
       "Certificate Transparency",
       "Pass-the-hash",
@@ -3908,7 +3908,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: QRadar is IBM\u2019s SIEM platform for log correlation and security analytics.",
+    "prompt": "Which answer choice best matches this description: ____ is IBM\u2019s SIEM platform for log correlation and security analytics.",
     "options": [
       "Honeypot",
       "Pseudocode",
@@ -3924,7 +3924,7 @@
     "type": "multiple-choice",
     "category": "Detection",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: Zeek is a network security monitoring framework that produces rich protocol logs.",
+    "prompt": "Which answer choice best matches this description: ____ is a network security monitoring framework that produces rich protocol logs.",
     "options": [
       "IMAP",
       "Site isolation",
@@ -3940,7 +3940,7 @@
     "type": "multiple-choice",
     "category": "Forensics",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Evidence volatility ranks how quickly evidence disappears, with memory and network state often more volatile than disk.",
+    "prompt": "Which answer choice best matches this description: ____ ranks how quickly evidence disappears, with memory and network state often more volatile than disk.",
     "options": [
       "Group Policy",
       "Hiberfil",
@@ -3956,7 +3956,7 @@
     "type": "multiple-choice",
     "category": "Forensics",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Network forensics analyzes logs and captures such as DNS, passive DNS, NetFlow and packets.",
+    "prompt": "Which answer choice best matches this description: ____ analyzes logs and captures such as DNS, passive DNS, NetFlow and packets.",
     "options": [
       "Suricata",
       "Timestomping",
@@ -3972,7 +3972,7 @@
     "type": "multiple-choice",
     "category": "Forensics",
     "difficulty": "beginner",
-    "prompt": "Which concept best matches this description: NetFlow summarizes network conversations by metadata such as source, destination, ports, bytes and timing.",
+    "prompt": "Which answer choice best matches this description: ____ summarizes network conversations by metadata such as source, destination, ports, bytes and timing.",
     "options": [
       "Execution",
       "Silver ticket",
@@ -3988,7 +3988,7 @@
     "type": "multiple-choice",
     "category": "Forensics",
     "difficulty": "intermediate",
-    "prompt": "Which concept best matches this description: Passive DNS records observed DNS resolutions over time for investigation and threat intelligence.",
+    "prompt": "Which answer choice best matches this description: ____ records observed DNS resolutions over time for investigation and threat intelligence.",
     "options": [
       "Passive DNS",
       "Telnet",

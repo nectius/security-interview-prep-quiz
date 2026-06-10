@@ -24,6 +24,12 @@ type FreeTextQuestion = BaseQuestion & {
 
 type Question = MultipleChoiceQuestion | FreeTextQuestion;
 
+type AnswerState = {
+  selectedOption: string;
+  freeTextAnswer: string;
+  isSubmitted: boolean;
+};
+
 const SESSION_LENGTH = 30;
 const questions = questionsData as Question[];
 
@@ -38,6 +44,7 @@ function App() {
   const [selectedOption, setSelectedOption] = useState('');
   const [freeTextAnswer, setFreeTextAnswer] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [answerStates, setAnswerStates] = useState<Record<number, AnswerState>>({});
   const [multipleChoiceScore, setMultipleChoiceScore] = useState(0);
   const [answeredMultipleChoice, setAnsweredMultipleChoice] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
@@ -54,6 +61,19 @@ function App() {
     setIsSubmitted(false);
   }
 
+  function loadAnswerState(index: number) {
+    const savedAnswer = answerStates[index];
+
+    if (!savedAnswer) {
+      resetAnswerState();
+      return;
+    }
+
+    setSelectedOption(savedAnswer.selectedOption);
+    setFreeTextAnswer(savedAnswer.freeTextAnswer);
+    setIsSubmitted(savedAnswer.isSubmitted);
+  }
+
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
@@ -68,7 +88,25 @@ function App() {
       }
     }
 
+    setAnswerStates((answers) => ({
+      ...answers,
+      [currentIndex]: {
+        selectedOption,
+        freeTextAnswer,
+        isSubmitted: true,
+      },
+    }));
     setIsSubmitted(true);
+  }
+
+  function handlePreviousQuestion() {
+    if (currentIndex === 0) {
+      return;
+    }
+
+    const previousIndex = currentIndex - 1;
+    setCurrentIndex(previousIndex);
+    loadAnswerState(previousIndex);
   }
 
   function handleNextQuestion() {
@@ -77,14 +115,16 @@ function App() {
       return;
     }
 
-    setCurrentIndex((index) => index + 1);
-    resetAnswerState();
+    const nextIndex = currentIndex + 1;
+    setCurrentIndex(nextIndex);
+    loadAnswerState(nextIndex);
   }
 
   function handleRestart() {
     setCurrentIndex(0);
     setMultipleChoiceScore(0);
     setAnsweredMultipleChoice(0);
+    setAnswerStates({});
     setIsFinished(false);
     resetAnswerState();
     setSessionId((id) => id + 1);
@@ -202,6 +242,15 @@ function App() {
           )}
 
           <div className="actions">
+            <button
+              aria-label="Go to previous question"
+              className="secondary-button icon-button"
+              disabled={currentIndex === 0}
+              onClick={handlePreviousQuestion}
+              type="button"
+            >
+              ← Previous
+            </button>
             <button className="primary-button" disabled={!userAnswer || isSubmitted} type="submit">
               Submit Answer
             </button>

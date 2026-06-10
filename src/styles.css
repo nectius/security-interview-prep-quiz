@@ -225,6 +225,12 @@ textarea:focus {
   color: #e2e8f0;
 }
 
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .answer-panel {
   margin-top: 24px;
   border: 1px solid rgba(56, 189, 248, 0.28);

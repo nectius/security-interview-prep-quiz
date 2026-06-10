@@ -1,6 +1,6 @@
 # Security Interview Prep Quiz
 
-A static cybersecurity interview prep quiz built with Vite, React, and TypeScript. The app runs as a single-page UI and is ready to deploy to Cloudflare Pages with `dist` as the build output directory.
+A static cybersecurity interview prep quiz built with Vite, React, and TypeScript. The app runs as a single-page UI and is ready to deploy to Cloudflare Workers static assets with `dist` as the build output directory.
 
 ## Features
 
@@ -66,16 +66,21 @@ Preview the production build locally:
 npm run preview
 ```
 
-## Cloudflare Pages deployment
+## Cloudflare Workers deployment
 
-Use these Cloudflare Pages settings:
+This project uses `wrangler.jsonc` to deploy the Vite build output as Cloudflare Workers static assets.
 
-- **Framework preset:** Vite
 - **Build command:** `npm run build`
 - **Build output directory:** `dist`
-- **Root directory:** repository root
+- **Wrangler config:** `wrangler.jsonc`
 
-Cloudflare Pages will install npm dependencies, run the build command, and publish the generated files from `dist`.
+Deploy from the repository root with:
+
+```bash
+npm run deploy
+```
+
+Wrangler reads `wrangler.jsonc`, serves files from `dist`, and uses SPA fallback handling so quiz routes return `index.html`.
 
 ## Git learning notes
 
@@ -104,3 +109,15 @@ git commit -m "Your commit message"
 ```
 
 Creates a checkpoint in history with the currently staged changes.
+
+```bash
+git remote add origin https://github.com/nectius/security-interview-prep-quiz.git
+```
+
+Connects the local repository to the GitHub remote named `origin`.
+
+```bash
+git pull --no-rebase origin main
+```
+
+Fetches the latest `main` branch from `origin` and merges it into the current branch, which is useful when resolving branch divergence before opening a pull request.

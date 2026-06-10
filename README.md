@@ -109,3 +109,15 @@ git commit -m "Your commit message"
 ```
 
 Creates a checkpoint in history with the currently staged changes.
+
+```bash
+git remote add origin https://github.com/nectius/security-interview-prep-quiz.git
+```
+
+Connects the local repository to the GitHub remote named `origin`.
+
+```bash
+git pull --no-rebase origin main
+```
+
+Fetches the latest `main` branch from `origin` and merges it into the current branch, which is useful when resolving branch divergence before opening a pull request.

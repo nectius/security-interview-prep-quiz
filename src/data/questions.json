@@ -1,0 +1,210 @@
+[
+  {
+    "id": "sec-001",
+    "type": "multiple-choice",
+    "category": "Web security",
+    "prompt": "Which HTTP response header helps browsers prevent clickjacking by controlling whether a page can be embedded in a frame?",
+    "options": ["Content-Security-Policy frame-ancestors", "Strict-Transport-Security", "Access-Control-Allow-Origin", "Referrer-Policy"],
+    "correctAnswer": "Content-Security-Policy frame-ancestors",
+    "explanation": "The CSP frame-ancestors directive restricts which origins may embed the page in frames, iframes, objects, or embeds. X-Frame-Options is older and less flexible."
+  },
+  {
+    "id": "sec-002",
+    "type": "multiple-choice",
+    "category": "Cryptography",
+    "prompt": "What is the primary security property provided by a digital signature?",
+    "options": ["Confidentiality", "Authenticity and integrity", "Availability", "Anonymity"],
+    "correctAnswer": "Authenticity and integrity",
+    "explanation": "A valid digital signature proves that the holder of the private key signed the data and that the signed data was not changed after signing."
+  },
+  {
+    "id": "sec-003",
+    "type": "free-text",
+    "category": "Security design",
+    "prompt": "Explain the principle of least privilege and give one practical example.",
+    "correctAnswer": "Grant each user, service, or process only the permissions required to perform its job, such as giving an application read-only access to a storage bucket instead of administrator access.",
+    "explanation": "Least privilege reduces blast radius. If an account or component is compromised, the attacker receives only a limited set of capabilities."
+  },
+  {
+    "id": "sec-004",
+    "type": "multiple-choice",
+    "category": "Network security",
+    "prompt": "Which TLS feature helps prevent downgrade attacks by letting a client verify that a server supports specific protocol parameters?",
+    "options": ["Certificate Transparency", "Authenticated encryption", "Handshake authentication", "DNS round robin"],
+    "correctAnswer": "Handshake authentication",
+    "explanation": "TLS authenticates the handshake transcript so attackers cannot silently alter negotiated protocol versions or cipher suites without detection."
+  },
+  {
+    "id": "sec-005",
+    "type": "multiple-choice",
+    "category": "Application security",
+    "prompt": "What vulnerability occurs when untrusted user input is concatenated into a database query?",
+    "options": ["SQL injection", "Cross-site request forgery", "Server-side request forgery", "Insecure deserialization"],
+    "correctAnswer": "SQL injection",
+    "explanation": "SQL injection happens when user-controlled data changes the structure of a query. Parameterized queries keep code and data separate."
+  },
+  {
+    "id": "sec-006",
+    "type": "free-text",
+    "category": "Incident response",
+    "prompt": "What are the typical phases of an incident response lifecycle?",
+    "correctAnswer": "Preparation, identification, containment, eradication, recovery, and lessons learned.",
+    "explanation": "Teams use lifecycle phases to structure work before, during, and after incidents, ensuring evidence is preserved and improvements are captured."
+  },
+  {
+    "id": "sec-007",
+    "type": "multiple-choice",
+    "category": "Identity and access",
+    "prompt": "Which authentication factor category does a hardware security key usually represent?",
+    "options": ["Something you know", "Something you have", "Something you are", "Somewhere you are"],
+    "correctAnswer": "Something you have",
+    "explanation": "A security key is a possession factor. Strong MFA combines different factor categories, such as a password plus a hardware key."
+  },
+  {
+    "id": "sec-008",
+    "type": "multiple-choice",
+    "category": "Cloud security",
+    "prompt": "In a shared responsibility model, which party is usually responsible for securing application code deployed by the customer?",
+    "options": ["The cloud provider", "The customer", "The certificate authority", "The ISP"],
+    "correctAnswer": "The customer",
+    "explanation": "Cloud providers secure the underlying cloud infrastructure, while customers remain responsible for their data, identities, configurations, and application code."
+  },
+  {
+    "id": "sec-009",
+    "type": "free-text",
+    "category": "Threat modeling",
+    "prompt": "What is STRIDE and how is it used in threat modeling?",
+    "correctAnswer": "STRIDE is a mnemonic for Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, and Elevation of privilege. It helps teams systematically identify threats against system components and data flows.",
+    "explanation": "Mapping each STRIDE category to assets, trust boundaries, and data flows helps teams discover missing controls before building or shipping a system."
+  },
+  {
+    "id": "sec-010",
+    "type": "multiple-choice",
+    "category": "Web security",
+    "prompt": "Which cookie attribute helps prevent JavaScript from reading a session cookie?",
+    "options": ["Secure", "HttpOnly", "SameSite", "Path"],
+    "correctAnswer": "HttpOnly",
+    "explanation": "HttpOnly tells browsers not to expose the cookie through client-side scripts, reducing the impact of many XSS attacks against session cookies."
+  },
+  {
+    "id": "sec-011",
+    "type": "multiple-choice",
+    "category": "Secure coding",
+    "prompt": "What is the safest common defense against command injection when invoking external programs?",
+    "options": ["Escape spaces only", "Use shell=true", "Pass arguments as an array without a shell", "Block all punctuation characters"],
+    "correctAnswer": "Pass arguments as an array without a shell",
+    "explanation": "Avoiding the shell and passing structured arguments prevents user input from being interpreted as shell syntax. Input validation is still useful, but escaping alone is fragile."
+  },
+  {
+    "id": "sec-012",
+    "type": "free-text",
+    "category": "Vulnerability management",
+    "prompt": "How would you prioritize vulnerabilities when there are too many to fix immediately?",
+    "correctAnswer": "Combine exploitability, asset criticality, exposure, business impact, compensating controls, and available fixes instead of relying only on a CVSS score.",
+    "explanation": "Risk-based prioritization focuses scarce remediation time on vulnerabilities most likely to cause meaningful harm in the organization’s specific environment."
+  },
+  {
+    "id": "sec-013",
+    "type": "multiple-choice",
+    "category": "Logging and monitoring",
+    "prompt": "Which log event is most suspicious for possible credential stuffing?",
+    "options": ["One failed login followed by a password reset", "Many failed logins across many accounts from a small set of IPs", "A user changing their profile picture", "A successful login during normal business hours"],
+    "correctAnswer": "Many failed logins across many accounts from a small set of IPs",
+    "explanation": "Credential stuffing often tests known username/password pairs at scale, creating high failure rates across accounts and repeated source infrastructure."
+  },
+  {
+    "id": "sec-014",
+    "type": "multiple-choice",
+    "category": "Security architecture",
+    "prompt": "What does defense in depth mean?",
+    "options": ["Using one very strong perimeter firewall", "Layering independent controls so one failure does not expose everything", "Encrypting only backups", "Relying on annual penetration tests"],
+    "correctAnswer": "Layering independent controls so one failure does not expose everything",
+    "explanation": "Defense in depth combines preventive, detective, and responsive controls across layers to reduce reliance on any single control."
+  },
+  {
+    "id": "sec-015",
+    "type": "free-text",
+    "category": "API security",
+    "prompt": "What is broken object level authorization, and why is it dangerous?",
+    "correctAnswer": "Broken object level authorization happens when an API fails to verify that the authenticated caller is allowed to access the specific object being requested, such as another user’s invoice by changing an ID in the URL.",
+    "explanation": "Authentication only identifies the caller. Authorization must also check whether the caller can perform the requested action on the requested resource."
+  },
+  {
+    "id": "sec-016",
+    "type": "multiple-choice",
+    "category": "Cryptography",
+    "prompt": "Which password storage approach is generally recommended?",
+    "options": ["Plain SHA-256 hashes", "Reversible encryption with a shared key", "A slow password hashing function with a unique salt", "Base64 encoding"],
+    "correctAnswer": "A slow password hashing function with a unique salt",
+    "explanation": "Algorithms such as Argon2id, bcrypt, or scrypt are designed to slow offline guessing. Unique salts prevent attackers from reusing precomputed tables across users."
+  },
+  {
+    "id": "sec-017",
+    "type": "multiple-choice",
+    "category": "Security testing",
+    "prompt": "What is the main purpose of fuzz testing?",
+    "options": ["Check code formatting", "Generate malformed or unexpected inputs to find crashes and bugs", "Verify brand colors", "Replace unit testing"],
+    "correctAnswer": "Generate malformed or unexpected inputs to find crashes and bugs",
+    "explanation": "Fuzzers exercise parsers and input handling paths with many generated inputs, often finding memory safety issues, panics, and validation errors."
+  },
+  {
+    "id": "sec-018",
+    "type": "free-text",
+    "category": "Zero trust",
+    "prompt": "Summarize the core idea of zero trust security.",
+    "correctAnswer": "Zero trust assumes no implicit trust based on network location. Access should be explicitly verified, least-privileged, continuously evaluated, and monitored.",
+    "explanation": "Zero trust shifts security decisions from trusted networks to identity, device posture, context, policy, and continuous verification."
+  },
+  {
+    "id": "sec-019",
+    "type": "multiple-choice",
+    "category": "Web security",
+    "prompt": "Which condition is required for a typical cross-site request forgery attack?",
+    "options": ["The victim is authenticated to the target site", "The attacker knows the server private key", "The site uses parameterized SQL", "The victim disables CSS"],
+    "correctAnswer": "The victim is authenticated to the target site",
+    "explanation": "CSRF abuses the browser’s automatic credential sending. Anti-CSRF tokens and SameSite cookies help ensure state-changing requests are intentional."
+  },
+  {
+    "id": "sec-020",
+    "type": "multiple-choice",
+    "category": "Container security",
+    "prompt": "Which practice reduces risk in container images?",
+    "options": ["Run all containers as root for compatibility", "Use minimal base images and scan dependencies", "Bake production secrets into the image", "Disable image signing"],
+    "correctAnswer": "Use minimal base images and scan dependencies",
+    "explanation": "Smaller images reduce attack surface, and dependency scanning helps identify known vulnerabilities before deployment."
+  },
+  {
+    "id": "sec-021",
+    "type": "free-text",
+    "category": "Security operations",
+    "prompt": "What information would you include in a high-quality security alert?",
+    "correctAnswer": "Include what happened, affected asset and identity, severity, evidence, timeline, detection logic, recommended triage steps, and links to related logs or runbooks.",
+    "explanation": "Actionable alerts reduce analyst toil by providing enough context to validate, scope, and respond without starting from scratch."
+  },
+  {
+    "id": "sec-022",
+    "type": "multiple-choice",
+    "category": "Supply chain security",
+    "prompt": "What does an SBOM primarily describe?",
+    "options": ["A list of software components and dependencies", "A firewall routing table", "An incident severity matrix", "A password rotation schedule"],
+    "correctAnswer": "A list of software components and dependencies",
+    "explanation": "A Software Bill of Materials documents components in software, helping teams understand exposure when a dependency vulnerability is announced."
+  },
+  {
+    "id": "sec-023",
+    "type": "multiple-choice",
+    "category": "Access control",
+    "prompt": "Which access control model grants permissions based on job functions such as Admin, Analyst, or Auditor?",
+    "options": ["Role-based access control", "Discretionary access control", "Mandatory access control", "Attribute-free access control"],
+    "correctAnswer": "Role-based access control",
+    "explanation": "RBAC assigns permissions to roles and then assigns users to roles, making access management easier at organizational scale."
+  },
+  {
+    "id": "sec-024",
+    "type": "free-text",
+    "category": "Secure SDLC",
+    "prompt": "Name three security activities that fit into a secure software development lifecycle.",
+    "correctAnswer": "Examples include threat modeling, secure code review, dependency scanning, static analysis, dynamic testing, security unit tests, secrets scanning, and pre-release risk reviews.",
+    "explanation": "Security activities are most effective when integrated throughout design, implementation, testing, release, and operations instead of delayed until the end."
+  }
+]

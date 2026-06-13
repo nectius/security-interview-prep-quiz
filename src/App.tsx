@@ -2,6 +2,7 @@ import { FormEvent, useMemo, useState } from 'react';
 import questionsData from './data/questions.json';
 
 type QuestionType = 'multiple-choice' | 'free-text';
+type Difficulty = 'beginner' | 'easy' | 'intermediary' | 'intermediate' | 'advanced' | string;
 
 type BaseQuestion = {
   id: string;
@@ -10,6 +11,7 @@ type BaseQuestion = {
   correctAnswer: string;
   explanation: string;
   category?: string;
+  difficulty?: Difficulty;
 };
 
 type MultipleChoiceQuestion = BaseQuestion & {
@@ -32,14 +34,77 @@ type AnswerState = {
 
 const SESSION_LENGTH = 30;
 const questions = questionsData as Question[];
+const difficultyOrder = ['beginner', 'easy', 'intermediary', 'intermediate', 'advanced'];
 
 function shuffleQuestions(items: Question[]) {
   return [...items].sort(() => Math.random() - 0.5).slice(0, SESSION_LENGTH);
 }
 
+function formatDifficulty(difficulty?: string) {
+  if (!difficulty) {
+    return 'Unspecified';
+  }
+
+  if (difficulty === 'easy' || difficulty === 'beginner') {
+    return 'Beginner';
+  }
+
+  if (difficulty === 'intermediate' || difficulty === 'intermediary') {
+    return 'Intermediary';
+  }
+
+  return difficulty.charAt(0).toUpperCase() + difficulty.slice(1);
+}
+
+function getDifficultyClassName(difficulty?: string) {
+  const normalizedDifficulty = difficulty?.toLowerCase();
+
+  if (normalizedDifficulty === 'easy' || normalizedDifficulty === 'beginner') {
+    return 'difficulty-beginner';
+  }
+
+  if (normalizedDifficulty === 'intermediate' || normalizedDifficulty === 'intermediary') {
+    return 'difficulty-intermediary';
+  }
+
+  return `difficulty-${normalizedDifficulty ?? 'unspecified'}`;
+}
+
 function App() {
   const [sessionId, setSessionId] = useState(0);
-  const sessionQuestions = useMemo(() => shuffleQuestions(questions), [sessionId]);
+  const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>([]);
+  const availableDifficulties = useMemo(() => {
+    const difficulties = Array.from(
+      new Set(questions.map((question) => question.difficulty).filter(Boolean) as string[]),
+    );
+
+    return difficulties.sort((first, second) => {
+      const firstIndex = difficultyOrder.indexOf(first.toLowerCase());
+      const secondIndex = difficultyOrder.indexOf(second.toLowerCase());
+
+      if (firstIndex === -1 && secondIndex === -1) {
+        return first.localeCompare(second);
+      }
+
+      if (firstIndex === -1) {
+        return 1;
+      }
+
+      if (secondIndex === -1) {
+        return -1;
+      }
+
+      return firstIndex - secondIndex;
+    });
+  }, []);
+  const filteredQuestions = useMemo(() => {
+    if (selectedDifficulties.length === 0) {
+      return questions;
+    }
+
+    return questions.filter((question) => question.difficulty && selectedDifficulties.includes(question.difficulty));
+  }, [selectedDifficulties]);
+  const sessionQuestions = useMemo(() => shuffleQuestions(filteredQuestions), [filteredQuestions, sessionId]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState('');
   const [freeTextAnswer, setFreeTextAnswer] = useState('');
@@ -61,6 +126,16 @@ function App() {
     setIsSubmitted(false);
   }
 
+  function resetSession() {
+    setCurrentIndex(0);
+    setMultipleChoiceScore(0);
+    setAnsweredMultipleChoice(0);
+    setAnswerStates({});
+    setIsFinished(false);
+    resetAnswerState();
+    setSessionId((id) => id + 1);
+  }
+
   function loadAnswerState(index: number) {
     const savedAnswer = answerStates[index];
 
@@ -72,6 +147,17 @@ function App() {
     setSelectedOption(savedAnswer.selectedOption);
     setFreeTextAnswer(savedAnswer.freeTextAnswer);
     setIsSubmitted(savedAnswer.isSubmitted);
+  }
+
+  function handleDifficultyToggle(difficulty: string) {
+    setSelectedDifficulties((currentDifficulties) => {
+      if (currentDifficulties.includes(difficulty)) {
+        return currentDifficulties.filter((selectedDifficulty) => selectedDifficulty !== difficulty);
+      }
+
+      return [...currentDifficulties, difficulty];
+    });
+    resetSession();
   }
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -121,13 +207,7 @@ function App() {
   }
 
   function handleRestart() {
-    setCurrentIndex(0);
-    setMultipleChoiceScore(0);
-    setAnsweredMultipleChoice(0);
-    setAnswerStates({});
-    setIsFinished(false);
-    resetAnswerState();
-    setSessionId((id) => id + 1);
+    resetSession();
   }
 
   if (!currentQuestion) {
@@ -193,6 +273,29 @@ function App() {
       </section>
 
       <section className="card quiz-card" aria-live="polite">
+        <div className="difficulty-filter" aria-label="Choose question difficulties">
+          <span>Difficulty for next questions</span>
+          <div className="difficulty-options">
+            {availableDifficulties.map((difficulty) => (
+              <button
+                className={`difficulty-toggle ${getDifficultyClassName(difficulty)} ${
+                  selectedDifficulties.includes(difficulty) ? 'selected' : ''
+                }`}
+                key={difficulty}
+                onClick={() => handleDifficultyToggle(difficulty)}
+                type="button"
+              >
+                {formatDifficulty(difficulty)}
+              </button>
+            ))}
+          </div>
+          <p className="filter-help">
+            {selectedDifficulties.length === 0
+              ? 'All difficulties are included until you select one or more filters.'
+              : `Showing only: ${selectedDifficulties.map(formatDifficulty).join(', ')}`}
+          </p>
+        </div>
+
         <div className="quiz-meta">
           <span>{progressText}</span>
           <span>{currentQuestion.category ?? 'General security'}</span>

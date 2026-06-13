@@ -7736,7 +7736,7 @@
     "type": "multiple-choice",
     "category": "Windows Endpoint Forensics",
     "difficulty": "advanced",
-    "prompt": "Event 7045 records service installation and is important for detecting PsExec-like lateral movement or persistence through malicious services.",
+    "prompt": "...... records ....... and is important for detecting PsExec-like lateral movement or persistence through malicious services.",
     "options": [
       "Compress then encrypt",
       "Evidence provenance",

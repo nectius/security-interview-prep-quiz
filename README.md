@@ -82,42 +82,5 @@ npm run deploy
 
 Wrangler reads `wrangler.jsonc`, serves files from `dist`, and uses SPA fallback handling so quiz routes return `index.html`.
 
-## Git learning notes
 
-Useful git commands while working on this project:
 
-```bash
-git status --short
-```
-
-Shows which files are new, modified, deleted, or staged.
-
-```bash
-git diff
-```
-
-Shows unstaged line-by-line changes.
-
-```bash
-git add <file-or-directory>
-```
-
-Stages changes so they are included in the next commit.
-
-```bash
-git commit -m "Your commit message"
-```
-
-Creates a checkpoint in history with the currently staged changes.
-
-```bash
-git remote add origin https://github.com/nectius/security-interview-prep-quiz.git
-```
-
-Connects the local repository to the GitHub remote named `origin`.
-
-```bash
-git pull --no-rebase origin main
-```
-
-Fetches the latest `main` branch from `origin` and merges it into the current branch, which is useful when resolving branch divergence before opening a pull request.

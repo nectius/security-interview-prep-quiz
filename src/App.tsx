@@ -2,7 +2,7 @@ import { FormEvent, useMemo, useState } from 'react';
 import questionsData from './data/questions.json';
 
 type QuestionType = 'multiple-choice' | 'free-text';
-type Difficulty = 'easy' | 'intermediate' | 'advanced' | 'hard' | string;
+type Difficulty = 'beginner' | 'easy' | 'intermediary' | 'intermediate' | 'advanced' | string;
 
 type BaseQuestion = {
   id: string;
@@ -34,7 +34,7 @@ type AnswerState = {
 
 const SESSION_LENGTH = 30;
 const questions = questionsData as Question[];
-const difficultyOrder = ['easy', 'intermediate', 'advanced', 'hard'];
+const difficultyOrder = ['beginner', 'easy', 'intermediary', 'intermediate', 'advanced'];
 
 function shuffleQuestions(items: Question[]) {
   return [...items].sort(() => Math.random() - 0.5).slice(0, SESSION_LENGTH);
@@ -45,11 +45,29 @@ function formatDifficulty(difficulty?: string) {
     return 'Unspecified';
   }
 
+  if (difficulty === 'easy' || difficulty === 'beginner') {
+    return 'Beginner';
+  }
+
+  if (difficulty === 'intermediate' || difficulty === 'intermediary') {
+    return 'Intermediary';
+  }
+
   return difficulty.charAt(0).toUpperCase() + difficulty.slice(1);
 }
 
 function getDifficultyClassName(difficulty?: string) {
-  return `difficulty-pill difficulty-${difficulty?.toLowerCase() ?? 'unspecified'}`;
+  const normalizedDifficulty = difficulty?.toLowerCase();
+
+  if (normalizedDifficulty === 'easy' || normalizedDifficulty === 'beginner') {
+    return 'difficulty-beginner';
+  }
+
+  if (normalizedDifficulty === 'intermediate' || normalizedDifficulty === 'intermediary') {
+    return 'difficulty-intermediary';
+  }
+
+  return `difficulty-${normalizedDifficulty ?? 'unspecified'}`;
 }
 
 function App() {
@@ -260,7 +278,9 @@ function App() {
           <div className="difficulty-options">
             {availableDifficulties.map((difficulty) => (
               <button
-                className={`difficulty-toggle ${selectedDifficulties.includes(difficulty) ? 'selected' : ''}`}
+                className={`difficulty-toggle ${getDifficultyClassName(difficulty)} ${
+                  selectedDifficulties.includes(difficulty) ? 'selected' : ''
+                }`}
                 key={difficulty}
                 onClick={() => handleDifficultyToggle(difficulty)}
                 type="button"
@@ -278,12 +298,7 @@ function App() {
 
         <div className="quiz-meta">
           <span>{progressText}</span>
-          <span className="question-taxonomy">
-            <span>{currentQuestion.category ?? 'General security'}</span>
-            <span className={getDifficultyClassName(currentQuestion.difficulty)}>
-              {formatDifficulty(currentQuestion.difficulty)}
-            </span>
-          </span>
+          <span>{currentQuestion.category ?? 'General security'}</span>
           <span>{isMultipleChoice ? 'Multiple choice' : 'Free text'}</span>
         </div>
 

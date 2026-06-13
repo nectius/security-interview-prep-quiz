@@ -6728,7 +6728,7 @@
     "type": "multiple-choice",
     "category": "Cryptography & PKI",
     "difficulty": "advanced",
-    "prompt": "A digital signature verifies integrity and authenticity from the signer’s private key, but it does not prove the signed content is safe or that the signer was not compromised.",
+    "prompt": "........ verifies integrity and authenticity from the signer’s private key, but it does not prove the signed content is safe or that the signer was not compromised.",
     "options": [
       "CSP report telemetry",
       "IRC botnet C2",
@@ -7472,7 +7472,7 @@
       "EDR tamper protection"
     ],
     "correctAnswer": "Shadow admin path",
-    "explanation": "A shadow admin has non-obvious rights such as GenericAll, WriteDACL, AddMember, or delegation control that can lead to privilege escalation without direct privileged group membership.",
+    "explanation": "A ...... has non-obvious rights such as GenericAll, WriteDACL, AddMember, or delegation control that can lead to privilege escalation without direct privileged group membership.",
     "source": "Custom senior cybersecurity defender/analyst/consultant question bank based on user study notes"
   },
   {
@@ -10104,7 +10104,7 @@
     "type": "multiple-choice",
     "category": "System Hardening & Architecture",
     "difficulty": "advanced",
-    "prompt": "This style Zero Trust grants access based on user identity, device state, context, and policy for each request rather than trusting network location.",
+    "prompt": "...... style Zero Trust grants access based on user identity, device state, context, and policy for each request rather than trusting network location.",
     "options": [
       "BeyondCorp",
       "DCShadow",
@@ -12665,7 +12665,7 @@
     "category": "Incident Response & Threat Hunting",
     "difficulty": "advanced",
     "prompt": "What should you know about Threat hunting hypothesis during an investigation?",
-    "correctAnswer": "A threat hunt hypothesis is a testable statement about possible attacker behavior, required telemetry, expected evidence, and success criteria.",
+    "correctAnswer": "A ........  is a testable statement about possible attacker behavior, required telemetry, expected evidence, and success criteria.",
     "explanation": "A threat hunt hypothesis is a testable statement about possible attacker behavior, required telemetry, expected evidence, and success criteria.",
     "source": "Custom senior cybersecurity defender/analyst/consultant question bank based on user study notes"
   },

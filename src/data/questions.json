@@ -7240,7 +7240,7 @@
     "type": "multiple-choice",
     "category": "TLS & Web Security",
     "difficulty": "advanced",
-    "prompt": "This concept tricks an authenticated browser into sending unwanted state-changing requests, mitigated with SameSite, anti-This concept tokens, and origin checks.",
+    "prompt": "This concept tricks an authenticated browser into sending unwanted state-changing requests, mitigated with SameSite and origin checks.",
     "options": [
       "Privileged Identity Management abuse",
       "SSRF to cloud credentials",
@@ -7576,7 +7576,7 @@
     "type": "multiple-choice",
     "category": "Identity, AD & Kerberos",
     "difficulty": "advanced",
-    "prompt": "Group Managed Service Accounts provide automatic password management for services and reduce weak or reused service account credential risk.",
+    "prompt": ".... provide automatic password management for services and reduce weak or reused service account credential risk.",
     "options": [
       "gMSA",
       "JA3 and JA4 fingerprinting",

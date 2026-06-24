@@ -1,5 +1,7 @@
 # Security Interview Prep Quiz
 
+Preview: https://security-interview-prep-quiz.fehmiaslan38.workers.dev/
+
 A static cybersecurity interview prep quiz built with Vite, React, and TypeScript. The app runs as a single-page UI and is ready to deploy to Cloudflare Workers static assets with `dist` as the build output directory.
 
 ## Features
